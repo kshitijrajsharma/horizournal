@@ -13,7 +13,7 @@ jobs:
       pages: "write"
       id-token: "write"
     with:
-      requirements: "pelican[markdown] typogrify"
+      requirements: "pelican[markdown] typogrify pelican-myst-reader"
       python: "3.12"
       settings: "publishconf.py"
 
