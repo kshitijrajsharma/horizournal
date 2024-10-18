@@ -57,12 +57,12 @@
     </nav>
     {% block content %}
     {% endblock %}
-    <footer>
+    <footer style="text-align: center;">
         <h6>
-            &nbsp;&bull;&nbsp; Copyright &copy{% if COPYRIGHT %}{{ COPYRIGHT }} {% endif %}
-            {% if AUTHOR %} &nbsp;&#8209;&nbsp; {{ AUTHOR }} {% endif %}
+            &nbsp;&bull;&nbsp; Copyright &copy;{% if COPYRIGHT %}{{ COPYRIGHT }}{% endif %}{% if AUTHOR %} &nbsp;&#8209;&nbsp; {{ AUTHOR }}{% endif %}&nbsp;&bull;&nbsp;
         </h6>
     </footer>
+    
 </div>
 {% include 'analytics.html' %}
 </body>
