@@ -1,9 +1,9 @@
 ---
-title: Blog One
-date: 2024-10-01
-tags: python, geospatial, postgres
-description: Lorem ipsum odor amet
-category: Blogs
+Title: Blog One
+Date: 2024-10-01
+Tags: python, geospatial, postgres
+Description: Lorem ipsum odor amet
+Category: Blogs
 
 ### Introduction
 
