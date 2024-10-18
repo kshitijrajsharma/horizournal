@@ -13,5 +13,7 @@ jobs:
       pages: "write"
       id-token: "write"
     with:
+      requirements: "pelican[markdown] typogrify"
+      python: "3.12"
       settings: "publishconf.py"
 

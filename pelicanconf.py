@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = "Kshitiz Raj Sharma"
 COPYRIGHT = "2024"
 SITENAME = "Horizonax"
-SITEURL = "https://www.example.com"
+# SITEURL = "https://www.example.com"
 SITESUBTITLE = "My Spatial Thoughts and Blogs"
 PATH = "content"
 TIMEZONE = "Europe/Rome"
