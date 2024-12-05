@@ -5,7 +5,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://kshitijrajsharma.github.io/horizournal",
+  site: "https://kshitijrajsharma.github.io",
+  base: "horizournal",
   integrations: [
     mdx(),
     sitemap(),
