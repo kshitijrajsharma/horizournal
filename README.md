@@ -32,8 +32,7 @@ To get started with the project, follow these steps:
 
 ## Credits
 
-- Demo content generated with [Chat GPT](https://chat.openai.com/)
-- Images for demo content from [Unsplash](https://unsplash.com/)
+
 - Built with [Astro](https://astro.build)
 
 ## License
