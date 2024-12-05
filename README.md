@@ -37,4 +37,4 @@ To get started with the project, follow these steps:
 
 ## License
 
-Licensed under the [GPL-3.0](https://github.com/JustGoodUI/ovidius-astro-theme/blob/main/LICENSE) license.
+Licensed under the same as [GPL-3.0](https://github.com/JustGoodUI/ovidius-astro-theme/blob/main/LICENSE) license.
