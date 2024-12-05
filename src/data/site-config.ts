@@ -112,7 +112,7 @@ const siteConfig: SiteConfig = {
             alt: 'Kshitij Sharma'
         },
         backgroundImage: {
-            src: '/hero.webp'
+            src: '/earth.webp'
         }
     },
     subscribe: {
