@@ -15,15 +15,17 @@ I'm Kshitij Raj Sharma, a **passionate spatial developer** with a strong backgro
 
 My contributions to OpenStreetMap and Geospatial Deelopment date back to 2015, My first contribution was creation of Nepali  OSMTracker android application to perform local surveying.
 
-## What Drives Me
+## What Drives Me ?
+
+![Drivers](/posts/drive-intersection.png)
 
 I'm drawn to the intersection of these three key topics: *Open Source*, *Spatial Data*, *Research Development, and Analysis*. Analyzing problems efficiently with research, figuring out new ideas, and implementing them is where I see myself fit. In addition to this, I enjoy exploring drones, field surveying, and mapping. I am a tech enthusiast who is fond of gadgets. I find myself reading novels and writing poetry from time to time and love to play basketball. Ultimately, my goal is to **make a meaningful impact through my work, with a focus on helping those in need and giving back to the community.**
+
 
 
 > Be kind and work hard; It will get you to the situations you want to be in.
 
 
-## Works and Contributions
 
 I am an active member and contributor to the following communities: OSGEO , Dev Community , Outreachy , State of the Map , Youth Mappers , OSGEO Nepal , FOSS4G Asia , FOSS4G Global, OSM Nepal
 
@@ -41,7 +43,10 @@ Some of the projects I am proud of include:
 
 ## Personal Interests
 
-When not working, I enjoy playing basketball and FIFA, traveling, and exploring new places. However, my ultimate passion remains mapping, and I continue to advocate for FOSS and contribute to open data initiatives.
+When not working, I enjoy my pets, playing basketball and FIFA, Hiking , traveling, and exploring new places. However, my ultimate passion remains mapping, and I continue to advocate for FOSS and contribute to open data initiatives.
+
+
+![lovies](/posts/cats-dogs.png)
 
 
 Thank you for visiting my blog. I hope to learn , grow and work with others to explore the exciting possibilities of GeoData Science and GeoAI.
