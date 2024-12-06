@@ -46,7 +46,7 @@ const siteConfig: SiteConfig = {
     title: 'Horizournal',
     description: 'Personal Blogs and Thoughts',
     image: {
-        src: '/ovidius-preview.jpg',
+        src: '/earth.webp',
         alt: 'Horizournal - Personal Blogs and Thoughts'
     },
     primaryNavLinks: [
