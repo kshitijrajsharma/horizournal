@@ -43,7 +43,7 @@ Some of the projects I am proud of include:
 
 ## Personal Interests
 
-When not working, I enjoy my pets, playing basketball and FIFA, Hiking , traveling, and exploring new places. However, my ultimate passion remains mapping, and I continue to advocate for FOSS and contribute to open data initiatives.
+When not working, I love my pets, playing basketball and FIFA, Hiking , traveling, and exploring new places. However, my ultimate passion remains mapping, and I continue to advocate for FOSS and contribute to open data initiatives.
 
 
 ![lovies](/posts/cats-dogs.png)
