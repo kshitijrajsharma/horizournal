@@ -106,7 +106,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Hi there!',
-        text: "My name is Kshitij Raj Sharma. I'm a geospatial developer, geomatics engineer, active open source contributor and mapper based in Austria all the way from mountains of Nepal. It's nice to meet you.",
+        text: "I'm Kshitij Raj Sharma, geospatial developer from the mountains of Nepal, now based in Austria. I’m a mapper and open-source advocate, passionate about promoting FOSS and empowering communities.",
         avatar: {
             src: '/avatar.jpg',
             alt: 'Kshitij Sharma'
