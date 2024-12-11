@@ -33,7 +33,7 @@ To get started with the project, follow these steps:
 ## Credits
 
 
-- Built with [Astro](https://astro.build)
+- Built with [Astro](https://astro.build) & [Ovidius](https://github.com/JustGoodUI/ovidius-astro-theme/)
 
 ## License
 
