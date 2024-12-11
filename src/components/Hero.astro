@@ -9,19 +9,30 @@ const socialLinks = siteConfig.socialLinks || [];
 <script>
   import Typed from "typed.js";
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const options = {
-      strings: [document.getElementById("typed-text").dataset.text],
-      typeSpeed: 40,
-      backSpeed: 10,
-      loop: true,
-      showCursor: true,
-      smartBackspace: true,
-      cursorChar: "|",
-    };
+  function initTyped() {
+    const typedElement = document.getElementById("typed-text");
+    if (typedElement) {
+      // Destroy any existing Typed instance to prevent duplicates
+      const existingTyped = (window as any).typedInstance;
+      if (existingTyped) {
+        existingTyped.destroy();
+      }
 
-    new Typed("#typed-text", options);
-  });
+      const options = {
+        strings: [typedElement.dataset.text || ""],
+        typeSpeed: 40,
+        backSpeed: 10,
+        loop: true,
+        showCursor: true,
+        smartBackspace: true,
+        cursorChar: "|",
+      };
+
+      (window as any).typedInstance = new Typed("#typed-text", options);
+    }
+  }
+  initTyped();
+  document.addEventListener("astro:page-load", initTyped);
 </script>
 
 {
@@ -65,7 +76,7 @@ const socialLinks = siteConfig.socialLinks || [];
               <div class="flex space-x-2" />
             </div>
             <div class="terminal-body p-4 h-full overflow-auto">
-              <span id="typed-text" data-text={hero?.text} class=" text-l" />
+              <span id="typed-text" data-text={hero?.text} class="text-l" />
             </div>
           </div>
           {socialLinks.length > 0 && (
