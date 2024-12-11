@@ -116,8 +116,6 @@ const siteConfig: SiteConfig = {
         }
     },
     subscribe: {
-        title: 'Subscribe to My Newsletter',
-        text: 'One update per month. All the latest news directly in your inbox.',
         formUrl: '#'
     },
     postsPerPage: 5
