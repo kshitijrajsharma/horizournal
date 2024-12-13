@@ -152,13 +152,13 @@ Visualize the image side by  side from
 
 ### Orbit Correction 
 
-... Why ? ... 
+Technically we suppose that satellite is following perfect line , But in reality there is vibration in satellite and is not really stable . Hence we need to apply correction on the orbit path 
 
 `Radar > Apply Orbit File`
 
 ![image](https://github.com/user-attachments/assets/7d72d659-267f-4237-8273-b70d8649f788)
 
-Go to Processing Parameters and Check Do not fail if new orbit file is not found to make sure our process doesn't fail even though orbit file not found 
+Go to Processing Parameters and Check Do not fail if new orbit file is not found to make sure our process doesn't fail even though orbit file not found ( Because orbit file is only available after two weeks of the acqusition at the moment ) 
 
 ![image](https://github.com/user-attachments/assets/4aa65093-b705-4ab5-b6dc-7431095392c3)
 
@@ -220,8 +220,7 @@ You shuold have new stack image with both of your image stacked together , You s
 
 ### Enhanced Spectral diversity 
 
-In order to improve the quality of the after image as related to before , we need to apply range and azimuth shift corrections to the after iamge 
-
+In order to improve the quality of the after image as related to before , Inorder to remove inospheric error this step is used . 
 
 Go to : 
 
@@ -271,3 +270,14 @@ To remove the seamlines between the single bursts we use TOPSAR Deburst
 Go TO : 
 
 `RADAR > Sentinel 1 - TOPS > S-1 TOPS-Deburst` 
+
+![image](https://github.com/user-attachments/assets/dcdb89dc-5007-412d-8009-b2bd717f413f)
+
+Click on Run 
+
+if you visualize the result , it will remove the small black lines between bursts in the image 
+
+![image](https://github.com/user-attachments/assets/4b05c22c-b7d5-4b2e-ab6d-bf91391b0511)
+
+
+## Generation of Differential Interferogram 
