@@ -38,6 +38,7 @@ We found event details , it's coordinate and confirmation from USGS , Now we can
 
 ## Download Image 
 
+### Filters
 I am using the ASF Data Search by NASA :  https://search.asf.alaska.edu/#/ 
 
 ![image](https://github.com/user-attachments/assets/49bb382f-6ef2-4375-8013-a02e2d2c7bc4)
@@ -71,7 +72,35 @@ if you look closely to the footprint image top left has my region of interest sp
 
 You need to create account in order to download the image 
 
-## Image preprocessing 
+## Image processing 
+
+For image processing and analysis I am going to use a tool called SNAP . SNAP (Sentinel Application Platform) is a earth observation processing open-source software developed by ESA 
 
 
+### Download SNAP : 
+https://step.esa.int/main/download/snap-download/ 
+SNAP is available for windows , mac and linux 
+I will be using linux , I downloaded all tollboxes
+
+![image](https://github.com/user-attachments/assets/5b5ba68d-4e72-4620-9b07-1e2724b34118)
+
+
+Setting up SNAP 
+```bash
+chmod +x esa-snap_all_linux-11.0.0.sh
+```
+```bash
+./esa-snap_all_linux-11.0.0.sh
+```
+
+### SNAP Operations 
+Open Snap it , Interface looks like this 
+![image](https://github.com/user-attachments/assets/98fa95a8-acd1-4792-9e6c-488d64553e38)
+
+#### Load image 
+Our downloaded image would be in .zip folder , Don't unzip them simply open them in SNAP 
+
+`File > Open Product > Select your both before after images > Open` 
+
+![image](https://github.com/user-attachments/assets/cfe1f523-cb1d-42d0-b749-2960cfc670e7)
 
