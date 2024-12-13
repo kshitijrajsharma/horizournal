@@ -61,6 +61,7 @@ Direction : Ascending  (...why ?...)
 ![image](https://github.com/user-attachments/assets/24f1370b-5855-4825-b966-1efe72f76f83)
 
 Search Results : 
+
 ![image](https://github.com/user-attachments/assets/331c549b-f48c-4107-b923-00478736d8b4)
 
 I am selecting two image based on my region of interest : 
@@ -68,13 +69,17 @@ After the event :: Novemeber 10, 2023
 Before the event :: October 17,2023
 
 if you look closely to the footprint image top left has my region of interest specifically 
+
 ![image](https://github.com/user-attachments/assets/2fd73887-3628-4ff8-a647-1fc62d67cf64)
 
-You need to create account in order to download the image 
+You need to create account in order to download the image.
 
-## Image processing 
+*Note : 
+As some of the required steps are computationally intensive, it is good to store the data at a location which offers good reading and writing speed. If your computer has an internal SSD, processing should be done there to ensure best performance. (Credit : ESA Tutorial)*
 
-For image processing and analysis I am going to use a tool called SNAP . SNAP (Sentinel Application Platform) is a earth observation processing open-source software developed by ESA 
+## Data preparation
+
+For data preparation and image processing and analysis I am going to use a tool called SNAP . SNAP (Sentinel Application Platform) is a earth observation processing open-source software developed by ESA 
 
 
 ### Download SNAP : 
@@ -104,3 +109,150 @@ Our downloaded image would be in .zip folder , Don't unzip them simply open them
 
 ![image](https://github.com/user-attachments/assets/cfe1f523-cb1d-42d0-b749-2960cfc670e7)
 
+#### Split data to region of interest 
+
+Radar > Sentinel-1 TOPS > S-1 Tops Split
+![image](https://github.com/user-attachments/assets/07b37c17-36ae-4813-83f0-eb22ab6f082c)
+
+Navigate to Processing Parameters 
+
+Subswath : IW1 
+Polarisation : VV 
+Bursts : 6 to 9 (For my area of interest bursts 6 to 9 covered the area , You should select the subswath and bursts accordingly . If you remember my are of intrest was in top left of the image , hence I selected the subswath that covers that area and bursts to minimize it )
+![image](https://github.com/user-attachments/assets/6be06d2a-18eb-4da8-b6ad-e94db7e609d0)
+
+Lets rename the output file for readability 
+
+![image](https://github.com/user-attachments/assets/6838f530-e788-472a-b0e2-a461ee0cdfdc)
+
+Hit Run 
+
+You should have the splitted file and now 
+
+![image](https://github.com/user-attachments/assets/e7527c76-821e-42ac-906a-5b91fb80811a)
+
+Visualize the intensity 
+
+`Expand the image > Bands > subswath name > intensity_* Double click `
+
+![image](https://github.com/user-attachments/assets/2e7b7a53-21e7-4231-a250-0cf0636af2eb)
+
+Now repeat the process to split another image as well , Remember to click on the image that you are splitting or change the path 
+
+Visualize the image side by  side from 
+`Window > Tile Vertically or horizontally`
+
+
+![image](https://github.com/user-attachments/assets/14f8a444-5dfd-4fd8-84a1-68b7a10dbc93)
+
+
+## Image preprocessing
+
+### Orbit Correction 
+
+... Why ? ... 
+
+`Radar > Apply Orbit File`
+
+![image](https://github.com/user-attachments/assets/7d72d659-267f-4237-8273-b70d8649f788)
+
+Go to Processing Parameters and Check Do not fail if new orbit file is not found to make sure our process doesn't fail even though orbit file not found 
+
+![image](https://github.com/user-attachments/assets/4aa65093-b705-4ab5-b6dc-7431095392c3)
+
+Repeat the process for another image as well . You should have those two new files in your window
+
+![image](https://github.com/user-attachments/assets/c0ea72bc-bc97-4fed-ac67-bd232fff5093)
+
+
+## Generation of Topographic Interferogram 
+
+A topographic interferogram highlights differences in phase caused by terrain elevation. It is a key step in extracting the displacement component. You must align the pixels between two different image ( Before and after one ) to make the comparison hence coregistration 
+
+
+![image](https://github.com/user-attachments/assets/b395e0e3-8cc2-4b2d-bff4-30776601d88d)
+
+*Source ( Prof : Karima ) *
+
+#### Cleanup 
+
+Lets Clean up the file we don't need 
+
+Control select the split file and original image and Right click > Close Products 
+
+No need to save Hit NO 
+
+![image](https://github.com/user-attachments/assets/42fbc2d3-610d-4c69-9a9b-f5aa85d367d3)
+
+### Back Geocoding and Enhanced Spectral Diversity
+
+The S-1 Back Geocoding operator  coregisters the two split products based on the orbit information added in the previous step and information from a digital elevation model (DEM) which is downloaded by SNAP.
+
+Go to 
+
+`Radar > Coregistration > S-1 Tops Coregistration > S1- Back Geocoding `
+
+![image](https://github.com/user-attachments/assets/fdc93177-d47b-4364-90de-6d62f64d5450)
+
+Click on **Add Opened** 
+
+![image](https://github.com/user-attachments/assets/6d54f45b-ebe1-4967-9196-f5ddd45c10ab)
+
+Make sure before image is on the top and after image is at the bottom 
+
+You should see your image there 
+
+![image](https://github.com/user-attachments/assets/35406e46-9976-4a5a-a1b8-07466bb3fdad)
+
+Go to **Back-Geocoding** 
+
+Select the DEM source : For me I am selecting SRTM 1Sec
+
+![image](https://github.com/user-attachments/assets/2ce0ef6b-1656-4616-905b-9ddd59b933a8)
+
+Press **Run** 
+
+You shuold have new stack image with both of your image stacked together , You shouldbe able to see your before and after image intensity 
+
+![image](https://github.com/user-attachments/assets/af63c0a8-eb77-4a45-9f5a-b0d5d2ebc472)
+
+### Enhanced Spectral diversity 
+
+In order to improve the quality of the after image as related to before , we need to apply range and azimuth shift corrections to the after iamge 
+
+
+Go to : 
+
+`Radar > Coregistration > S1 TOPS Coregistration > S-1 Enhanced Spectral Diversity ` 
+
+![image](https://github.com/user-attachments/assets/a19cb70f-aabc-4b56-8774-f1d73a6fd79d)
+
+Hit Run
+
+It should add a file with filename_*stack_esd
+
+You can change the visualization parameter from Color Palette 
+
+![image](https://github.com/user-attachments/assets/01eb4927-0221-4cf3-a899-29a326f370c2)
+
+
+![image](https://github.com/user-attachments/assets/ef830595-7c7a-4944-b91d-a40121518811)
+
+
+###  Interferogram Formation 
+
+... what does it calculates ? ... 
+
+Go To  
+
+`Radar > Interferometric > Products > Interferogram Formation ` 
+
+![image](https://github.com/user-attachments/assets/a18eea1d-a183-40a2-bc77-3a42208b6cb8)
+
+if you check on Processing Parameters : 
+
+You should see subtract flat-earth phase ticked 
+
+![image](https://github.com/user-attachments/assets/bd62c081-db65-4603-841f-08a269948763)
+
+Reminder : Make sure input image for the new step is always from the previous step 
