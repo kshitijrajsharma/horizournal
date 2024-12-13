@@ -281,3 +281,32 @@ if you visualize the result , it will remove the small black lines between burst
 
 
 ## Generation of Differential Interferogram 
+
+By generating a differential interferogram, we remove the topographic effects, extracting the phase
+changes caused by ground displacement. 
+
+![image](https://github.com/user-attachments/assets/e0985e1f-42ac-4cef-ab3c-56f9623d85c4)
+
+*Source : Prof Karima*
+
+GOTO : 
+
+`Radar > Interferometric > Products > Topographic Phase Removal` 
+
+![image](https://github.com/user-attachments/assets/79946621-98a8-4272-a2cc-6e9cd3ce5d85)
+
+Navigate to Processing Parameters 
+
+Choose the DEM source : For me I chose SRTM 1sec 
+
+![image](https://github.com/user-attachments/assets/d3e5d8bc-9f82-4e88-b242-97cba4fd72a8)
+
+Check Output Topographic Phase band and the elevation band ( Lets visualize the elevation as well ) 
+
+![image](https://github.com/user-attachments/assets/15afe862-2511-4515-9f26-a4c83b6f7fae)
+
+Hit Run 
+
+
+
+
