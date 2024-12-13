@@ -242,7 +242,7 @@ You can change the visualization parameter from Color Palette
 
 ###  Interferogram Formation 
 
-... what does it calculates ? ... 
+This is where we actually calculate the phase difference between two images along with coherence 
 
 Go To  
 
@@ -289,6 +289,11 @@ changes caused by ground displacement.
 
 *Source : Prof Karima*
 
+
+### Interferogram formation 
+
+**Topographic Phase Removal**
+
 GOTO : 
 
 `Radar > Interferometric > Products > Topographic Phase Removal` 
@@ -306,6 +311,120 @@ Check Output Topographic Phase band and the elevation band ( Lets visualize the 
 ![image](https://github.com/user-attachments/assets/15afe862-2511-4515-9f26-a4c83b6f7fae)
 
 Hit Run 
+
+I get the output like this along with elevation band 
+
+![image](https://github.com/user-attachments/assets/5dca6047-ba18-4f5f-aaeb-bf54f12e0885)
+
+### Multilooking 
+
+We need to create square pixels to make the resolutions same in range(approx 3m) and azimuth (approx 7m). we are used to see pixels in square 
+
+GOTO 
+
+`RADAR > SAR utilities > Multilooking`
+
+![image](https://github.com/user-attachments/assets/d2871279-754a-4cc0-a9f4-92801925b256)
+
+Navigate to processing parameters and  change number of looks for range and azimuth.
+
+
+For me I am using Range Looks : 8 and Azimuth Looks : 2 because it results approx 30m resolution which is enough for me because usualy displacement will happen in larger level, You can see the resolution after the value changes
+
+![image](https://github.com/user-attachments/assets/3e9ca2ba-e190-4c7b-bdad-8dede9f5b4d4)
+
+This is how output looks like 
+
+![image](https://github.com/user-attachments/assets/8b7416e1-347c-4054-a4cb-a8139ef38ee0)
+
+### Goldstein Phase Filtering 
+
+Lets filter the noise so that we can improve visual interpretability of differential interferogram.
+
+GOTO : 
+
+`Radar > Interferometric > Filtering > Goldstein Phase Filtering.`
+
+![image](https://github.com/user-attachments/assets/354946cf-cc97-4198-9485-1d0238272236)
+
+Navigate to processing parameters and play with the filter value , For me I am using 0.6 
+
+![image](https://github.com/user-attachments/assets/8c06a684-c71e-4862-89b1-ae2ef9b04e54)
+
+
+Hit RUN 
+
+This is what I got as output 
+
+![image](https://github.com/user-attachments/assets/71eac44b-0069-4f73-95b5-46d9ae722234)
+
+
+## Creation of Displacement Map 
+
+### Dowload snaphu plugin 
+The wrapped phase values need to be unwrapped to obtain continuous displacement
+measurements.
+
+For this output : We need this plugin to be installed : https://step.esa.int/main/snap-supported-plugins/snaphu/ 
+
+![image](https://github.com/user-attachments/assets/63f5a778-40a7-493e-8c0b-4c006d9049d6)
+
+
+.... addd installation method for linux atleast .... 
+
+### Export env for snaphu 
+Lets create env needed for snaphu 
+
+GO TO 
+`Radar > Interferometric > Unwrapping > SNAPHU Import`
+
+![image](https://github.com/user-attachments/assets/9551a64c-7afc-4ec1-bc2f-2ef4d2221978)
+
+Navigate to SnaphuExport 
+
+Select the folder where output would be stored ( Recommended to create new folder ) , For me I created snaphu-export folder with snaphu_output filename 
+
+Change No of tile rows and tile columns to make sure snaphu runs per pixel to 1 and 1 
+
+![image](https://github.com/user-attachments/assets/121a828b-8dd3-4d02-ad3e-96f3fdbdd442)
+
+
+Hit Run 
+
+Now navigate to the folder you specified you should see following structure 
+
+![image](https://github.com/user-attachments/assets/979f76b1-dc97-4d29-b946-b49b9169da36)
+
+Now open snaphu.conf in one of your editor ( Notepad ++ , VSCode , Kate any you prefer ) 
+
+![image](https://github.com/user-attachments/assets/38311a63-9cba-40c3-8083-ec25b45c5ad6)
+
+
+Now Here : 
+
+- Comment out logfile
+- Find the name of coherence file from the folder and Specify it in CORRFILE 
+
+![image](https://github.com/user-attachments/assets/8b565cd5-7ce8-40a5-b2b7-2d0e1982ef79)
+
+Your final conf should look like this 
+
+
+![image](https://github.com/user-attachments/assets/c7dfc0ea-0d3f-4e1c-ab7d-569a2022823d)
+
+Now open terminal in the folder dir , Remember in the folder dir 
+
+
+![image](https://github.com/user-attachments/assets/ba8ff5f8-5525-4199-9511-af6ebc5d0f52)
+
+
+Now you will find the command on top of the file, Copy & run the command in terminal
+
+
+![image](https://github.com/user-attachments/assets/bdae6c28-fb57-42a3-a5bc-da472883f08c)
+
+
+
 
 
 
