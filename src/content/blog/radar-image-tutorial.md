@@ -354,7 +354,7 @@ Navigate to processing parameters and play with the filter value , For me I am u
 
 Hit RUN 
 
-This is what I got as output 
+This is what I got as output , I have some noise in the right bottom part of image : for now it is okay but you can also play with it and increase the filter to 0.8 
 
 ![image](https://github.com/user-attachments/assets/71eac44b-0069-4f73-95b5-46d9ae722234)
 
@@ -384,9 +384,9 @@ Navigate to SnaphuExport
 
 Select the folder where output would be stored ( Recommended to create new folder ) , For me I created snaphu-export folder with snaphu_output filename 
 
-Change No of tile rows and tile columns to make sure snaphu runs per pixel to 1 and 1 
+Change No of tile rows and tile columns and number of processer based on your laptop spec , For me I used 8 processers and 10 rows/column
 
-![image](https://github.com/user-attachments/assets/121a828b-8dd3-4d02-ad3e-96f3fdbdd442)
+![image](https://github.com/user-attachments/assets/e552da8d-5239-4b2e-a4bb-05619c28fb0b)
 
 
 Hit Run 
@@ -423,6 +423,10 @@ Now you will find the command on top of the file, Copy & run the command in term
 
 ![image](https://github.com/user-attachments/assets/bdae6c28-fb57-42a3-a5bc-da472883f08c)
 
+
+The time differs based on the performance of laptop , For me it took 1 min 43 sec 
+
+![image](https://github.com/user-attachments/assets/3020dbce-dc0e-46f7-aeb3-9cc9baa4b8c5)
 
 
 
