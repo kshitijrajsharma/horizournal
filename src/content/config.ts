@@ -26,10 +26,10 @@ const blog = defineCollection({
             })
             .optional(),
         isFeatured: z.boolean().default(false),
+        published: z.boolean().default(true), 
         seo: seoSchema.optional()
     })
 });
-
 const pages = defineCollection({
     schema: z.object({
         title: z.string(),

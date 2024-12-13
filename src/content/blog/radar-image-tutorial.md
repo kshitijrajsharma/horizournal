@@ -6,6 +6,7 @@ featureImage:
   src: 'https://github.com/user-attachments/assets/a3130132-dd4e-4d10-aaa7-1618eee6bb9e'
   alt: Earthquake Displacement
 isFeatured: false
+published: false
 seo:
   image:
     src: 'https://github.com/user-attachments/assets/a3130132-dd4e-4d10-aaa7-1618eee6bb9e'
