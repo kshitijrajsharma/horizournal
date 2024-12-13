@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5034f0e8-7e30-4361-bc3a-94a3f2d85f45)---
+---
 title: 'Working with RADAR : Case Study in Jajarkot EarthQuake'
 excerpt: Step by Step tutorial to work with Sentinel 1 RADAR image with preprocessing analysis in my case study. 
 publishDate: 'Dec 13 2024'
