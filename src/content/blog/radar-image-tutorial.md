@@ -19,7 +19,7 @@ The goal of this tutorial is to share my experience and steps I followed when I 
 
 ![CNN report](https://github.com/user-attachments/assets/b39de535-5468-4ea7-9672-a8abbd0e503b)
 
-Source :  https://edition.cnn.com/2023/11/03/asia/nepal-earthquake-northwest-hnk-intl/index.html 
+*Source :  https://edition.cnn.com/2023/11/03/asia/nepal-earthquake-northwest-hnk-intl/index.html*
 
 There was a deadly earath quake in Early November 2023 which killed more than 157 people as per CNN . I wanted to figure out how much displacement it has cased in the area , Did topography went up ? or went down. As we know due to tectonic plates movement it will always result in displacement ! 
 
@@ -47,16 +47,18 @@ Click on filters Nearby search
 
 Here are the parameters for my Search filters : 
 
-Area of Interest : POINT(82.153 28.858) (You can convert your coords to WKT with https://wktmap.com/ )
-Start Date : 2023/10/01
-End Date : 2023/11/30 (To be on safe side I am trying to find image within two months frame to filter out the best image before and after the event )
-File Type : L1 Single Look Complex (SLC) (......why ? .....)
-Beam Mode : IW ( Because IW covers Orbit and EW covers Polar region ) 
+**Area of Interest** : POINT(82.153 28.858) (You can convert your coords to WKT with https://wktmap.com/ )
+**Start Date** : 2023/10/01
+**End Date** : 2023/11/30 (To be on safe side I am trying to find image within two months frame to filter out the best image before and after the event )
+**File Type** : L1 Single Look Complex (SLC) ( SLC has both amplitude and phase , in GRD we have only amplitude . Here in displacement we need phase hence SLC ) 
+**Beam Mode** : IW ( Because IW- Interforemetric  covers Orbit and EW- extra wide swath covers Polar region ) 
 
-![image](https://github.com/user-attachments/assets/1f65273f-1532-45db-9aac-3dc653dad16d) Source : My professor  Karima Hadj-Rabah & Zahra Dabiri  
+![image](https://github.com/user-attachments/assets/1f65273f-1532-45db-9aac-3dc653dad16d)
 
-Polarizations : VV ( VV polarization can provide good representation of the terrain , and here we are interested in the terrain displacement hence VV , I had to remove VV from filter as it was not showing any image hence I will select it in later during preprocessing of image ) 
-Direction : Ascending  (...why ?...)
+*Source : My professor  Karima Hadj-Rabah & Zahra Dabiri*
+
+**Polarizations** : VV ( Polarization doesn't really matter in phase differences , It matters in classification , Here we are selecting VV just to reduce the image size ) 
+**Direction** : Ascending  ( It doesn't matter as well because at the end we will do geocoding and correct the image so image going to be reotated anyway ) 
 
 ![image](https://github.com/user-attachments/assets/24f1370b-5855-4825-b966-1efe72f76f83)
 
@@ -172,7 +174,7 @@ A topographic interferogram highlights differences in phase caused by terrain el
 
 ![image](https://github.com/user-attachments/assets/b395e0e3-8cc2-4b2d-bff4-30776601d88d)
 
-*Source ( Prof : Karima ) *
+*Source ( Prof : Karima )*
 
 #### Cleanup 
 
@@ -255,4 +257,17 @@ You should see subtract flat-earth phase ticked
 
 ![image](https://github.com/user-attachments/assets/bd62c081-db65-4603-841f-08a269948763)
 
-Reminder : Make sure input image for the new step is always from the previous step 
+**Reminder : Make sure input image for the new step is always from the previous step**
+
+You should have new filenamewith_ifg extension
+
+![image](https://github.com/user-attachments/assets/b74dc155-bcba-4f96-b567-46212e1542e6)
+
+
+### TOPSAR Deburst 
+
+To remove the seamlines between the single bursts we use TOPSAR Deburst 
+
+Go TO : 
+
+`RADAR > Sentinel 1 - TOPS > S-1 TOPS-Deburst` 
