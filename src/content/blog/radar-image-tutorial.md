@@ -1,6 +1,6 @@
 ---
 title: 'Working with RADAR : Case Study in Jajarkot EarthQuake'
-excerpt: Step by Step tutorial to work with Sentinel 1 RADAR image with preprocessing analysis in my case study. 
+excerpt: Step by Step tutorial to work with Sentinel 1 RADAR image with preprocessing analysis in my case study.The goal of this tutorial is to share my experience and steps I followed when I tried to work with Sentinel-1 Radar Data to findout the displacement caused by the earthquake in Nepal.  
 publishDate: 'Dec 13 2024'
 featureImage:
   src: 'https://github.com/user-attachments/assets/3ec2e1db-36f5-4838-8242-d445a11f909e'
