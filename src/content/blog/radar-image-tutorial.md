@@ -552,5 +552,5 @@ Thank you for reading !
 - Prof. Karima Hadj-Rabah
 - My Colleague Sahar
 - [Paris - Lodron University , Z-GIS Department](https://www.plus.ac.at/) 
-- [ESA Snaphu Tutorial](../esa-radar-tutorial.pdf)
+- [ESA Snaphu Tutorial](https://github.com/kshitijrajsharma/horizournal/blob/main/src/content/blog/esa-radar-tutorial.pdf)
 
