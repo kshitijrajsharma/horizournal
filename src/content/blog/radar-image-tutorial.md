@@ -36,11 +36,11 @@ The goal of this tutorial is to share my experience and steps I followed when I 
 
 *Source :  https://edition.cnn.com/2023/11/03/asia/nepal-earthquake-northwest-hnk-intl/index.html*
 
-There was a deadly earath quake in Early November 2023 which killed more than 157 people as per CNN . I wanted to figure out how much displacement it has cased in the area , Did topography went up ? or went down. As we know due to tectonic plates movement it will always result in displacement ! 
+There was a deadly earthquake in Early November 2023 which killed more than 157 people as per CNN . I wanted to figure out how much displacement it has cased in the area , Did topography went up ? or went down. As we know due to tectonic plates movement it will always result in displacement ! 
 
 ## Preparation 
 
-Lets first verify that even exists , get the event details from USGS . USGS mainatains the eartquake catalog which will give the event date, magnitude and approx coordinate for the event .  
+Lets first verify that event exists , get the event details from USGS . USGS mainatains the eartquake catalog which will give the event date, magnitude and approx coordinate for the event .  
 https://earthquake.usgs.gov/earthquakes/search/ 
 
 ![image](https://github.com/user-attachments/assets/63f37491-d0bd-4da5-b560-64d9a70922a8)
