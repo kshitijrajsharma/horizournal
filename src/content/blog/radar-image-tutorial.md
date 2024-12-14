@@ -82,8 +82,9 @@ Search Results :
 ![image](https://github.com/user-attachments/assets/331c549b-f48c-4107-b923-00478736d8b4)
 
 I am selecting two image based on my region of interest : 
-After the event :: Novemeber 10, 2023
-Before the event :: October 17,2023
+
+- **After the event** :: Novemeber 10, 2023
+- **Before the event** :: October 17,2023
 
 if you look closely to the footprint image top left has my region of interest specifically 
 
@@ -96,7 +97,7 @@ As some of the required steps are computationally intensive, it is good to store
 
 ## Data preparation
 
-For data preparation and image processing and analysis I am going to use a tool called SNAP . SNAP (Sentinel Application Platform) is a earth observation processing open-source software developed by ESA 
+For data preparation and image processing and analysis I am going to use a tool called **SNAP** . **SNAP (Sentinel Application Platform)** is a earth observation processing open-source software developed by ESA 
 
 
 ### Download SNAP : 
@@ -130,10 +131,13 @@ Our downloaded image would be in .zip folder , Don't unzip them simply open them
 
 #### Split data to region of interest 
 
-Radar > Sentinel-1 TOPS > S-1 Tops Split
+Goto 
+
+`Radar > Sentinel-1 TOPS > S-1 Tops Split`
+
 ![image](https://github.com/user-attachments/assets/07b37c17-36ae-4813-83f0-eb22ab6f082c)
 
-Navigate to Processing Parameters 
+Navigate to **Processing Parameters** 
 
 - **Subswath** : IW1 
 - **Polarisation** : VV 
@@ -146,7 +150,7 @@ Lets rename the output file for readability
 
 ![image](https://github.com/user-attachments/assets/6838f530-e788-472a-b0e2-a461ee0cdfdc)
 
-Hit Run 
+Hit **Run** 
 
 You should have the splitted file and now 
 
@@ -161,6 +165,7 @@ Visualize the intensity
 Now repeat the process to split another image as well , Remember to click on the image that you are splitting or change the path 
 
 Visualize the image side by  side from 
+
 `Window > Tile Vertically or horizontally`
 
 
@@ -199,7 +204,7 @@ A topographic interferogram highlights differences in phase caused by terrain el
 
 Lets Clean up the file we don't need 
 
-Control select the split file and original image and Right click > Close Products 
+`Control select` the split file and original image and `Right click > Close Products` 
 
 No need to save Hit NO 
 
@@ -247,11 +252,11 @@ Go to :
 
 ![image](https://github.com/user-attachments/assets/a19cb70f-aabc-4b56-8774-f1d73a6fd79d)
 
-Hit Run
+Hit **Run**
 
 It should add a file with filename_*stack_esd
 
-You can change the visualization parameter from Color Palette 
+You can change the visualization parameter from **Color Palette** 
 
 ![image](https://github.com/user-attachments/assets/01eb4927-0221-4cf3-a899-29a326f370c2)
 
@@ -319,7 +324,7 @@ GOTO :
 
 ![image](https://github.com/user-attachments/assets/79946621-98a8-4272-a2cc-6e9cd3ce5d85)
 
-Navigate to Processing Parameters 
+Navigate to **Processing Parameters** 
 
 Choose the DEM source : For me I chose SRTM 1sec 
 
@@ -329,7 +334,7 @@ Check Output Topographic Phase band and the elevation band ( Lets visualize the 
 
 ![image](https://github.com/user-attachments/assets/15afe862-2511-4515-9f26-a4c83b6f7fae)
 
-Hit Run 
+Hit **Run** 
 
 I get the output like this along with elevation band 
 
@@ -345,10 +350,15 @@ GOTO
 
 ![image](https://github.com/user-attachments/assets/d2871279-754a-4cc0-a9f4-92801925b256)
 
-Navigate to processing parameters and  change number of looks for range and azimuth.
+Navigate to **processing parameters** and  change number of looks for **range** and **azimuth**.
 
 
-For me I am using Range Looks : 8 and Azimuth Looks : 2 because it results approx 30m resolution which is enough for me because usualy displacement will happen in larger level, You can see the resolution after the value changes
+For me I am using 
+
+- **Range Looks** : 8 
+- **Azimuth Looks** : 2 
+
+Because it results approx **30m** resolution which is enough for me because usualy displacement will happen in larger level, You can see the resolution after the value changes
 
 ![image](https://github.com/user-attachments/assets/3e9ca2ba-e190-4c7b-bdad-8dede9f5b4d4)
 
@@ -366,14 +376,14 @@ GOTO :
 
 ![image](https://github.com/user-attachments/assets/354946cf-cc97-4198-9485-1d0238272236)
 
-Navigate to processing parameters and play with the filter value , For me I am using 0.9 as There is quite some noise in my image  
+Navigate to **processing parameters** and play with the filter value , For me I am using 0.9 as There is quite some noise in my image  
 
 ![image](https://github.com/user-attachments/assets/8c06a684-c71e-4862-89b1-ae2ef9b04e54)
 
 
-Hit RUN 
+Hit **Run** 
 
-This is what I got as output , I have some noise in the right bottom part of image : for now it is okay but you can also play with it and increase the filter to 0.8 
+This is what I got as output , I have some noise in the right bottom part of image : for now it is okay but you can also play with it and increase or decrease the filter 
 
 ![image](https://github.com/user-attachments/assets/e9523184-585e-448d-8314-b80b52d34a68)
 
@@ -403,22 +413,22 @@ GO TO
 
 ![image](https://github.com/user-attachments/assets/9551a64c-7afc-4ec1-bc2f-2ef4d2221978)
 
-Navigate to SnaphuExport 
+Navigate to **SnaphuExport**
 
 Select the folder where output would be stored ( Recommended to create new folder ) , For me I created snaphu-export folder with snaphu_output filename 
 
-Change No of tile rows and tile columns and number of processer based on your laptop spec , For me I used 8 processers and 10 rows/column . Bearing in mind if you set 1 tile per time it will disable the multiprocesser option ! It is advised to process tiles in parallel 
+Change No of tile rows and tile columns and number of processer based on your laptop spec , For me I used **8 processers** and **10 rows/column** . Bearing in mind if you set 1 tile per time it will `disable the multiprocesser option` ! It is advised to process tiles in parallel 
 
 ![image](https://github.com/user-attachments/assets/e552da8d-5239-4b2e-a4bb-05619c28fb0b)
 
 
-Hit Run 
+Hit **Run** 
 
 Now navigate to the folder you specified you should see following structure 
 
 ![image](https://github.com/user-attachments/assets/979f76b1-dc97-4d29-b946-b49b9169da36)
 
-Now open snaphu.conf in one of your editor ( Notepad ++ , VSCode , Kate any you prefer ) 
+Now open `snaphu.conf` in one of your editor ( Notepad ++ , VSCode , Kate any you prefer ) 
 
 ![image](https://github.com/user-attachments/assets/38311a63-9cba-40c3-8083-ec25b45c5ad6)
 
@@ -474,7 +484,7 @@ Select `.hdr` file format
 ![image](https://github.com/user-attachments/assets/43166ee8-7691-474e-8a82-ed87b1a095ad)
 
 
-Navigate to Snaphu Import and Tick on **Don't save wrapped inferogram in the target Product**
+Navigate to **Snaphu Import** and Tick on **Don't save wrapped inferogram in the target Product**
 
 ![image](https://github.com/user-attachments/assets/58f5fa38-3e4d-4116-845a-a1a845008248)
 
@@ -484,7 +494,7 @@ And edit the name add _unwrapped in the name for disntinction
 
 ![image](https://github.com/user-attachments/assets/a162530f-547d-473b-9ad7-5044aeb0bec3)
 
-Hit Run 
+Hit **Run** 
 
 This is how my  output looks like 
 ![image](https://github.com/user-attachments/assets/c2fbbfab-35db-416a-aeda-02c46f34bb1b)
@@ -500,7 +510,7 @@ Go to
 
 ![image](https://github.com/user-attachments/assets/263e547a-3ab2-4177-88bd-549d16e5144a)
 
-Hit RUN 
+Hit **Run** 
 
 This is how my displacement map looks like 
 ![image](https://github.com/user-attachments/assets/0f7d172c-c227-49b5-a836-270b09a1cff7)
@@ -516,11 +526,11 @@ Goto :
 
 ![image](https://github.com/user-attachments/assets/c972f6da-94a7-4491-bd26-a8650f075522)
 
-Navigate to Processing Parameters and Select DEM , I selected SRTM 1Sec 
+Navigate to **Processing Parameters** and Select **DEM** , I selected SRTM 1Sec 
 
 ![image](https://github.com/user-attachments/assets/2a6566ae-b840-446d-b208-48844f064823)
 
-Hit Run 
+Hit **Run** 
 
 This is what I get as output 
 ![image](https://github.com/user-attachments/assets/c90ee29c-7fee-4597-a2b3-44dcb1c9e545)
