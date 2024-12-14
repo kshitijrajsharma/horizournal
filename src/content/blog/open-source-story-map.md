@@ -13,11 +13,28 @@ seo:
 ---
 During one of my assignment , I wanted to create story map that is open , free to use and available to everybody . ESRI story maps are popular however ESRI being commercial provider and you need license or vendor locked to use their products . So hunt for open source alternatives begins. 
 
-Existing Alternatives 
+**Existing Alternatives** 
 
 1) [Story Map JS](https://storymap.knightlab.com/)
+
+Explaination ..... Features , Advantages , Disadvantages [TBD]
+
 2) [Maplibre- StoryMap](https://github.com/digidem/maplibre-storymap) 
+
+
+Explaination ..... Features , Advantages , Disadvantages [TBD]
 
 I have developed my own version of story map in this website : https://kshitijrajsharma.github.io/ds-storymap/ 
 
-Blog Writting in Progress ..............
+
+I developed this story map using maplibre and maplibre-storymap resource as provided in above list . This is demonstration of the usage and my semester prsentation 
+
+I have added few custom features including 
+- Presentation timer 
+- Image Slider 
+- Image enlarger on click 
+- Dynamic Navbar that updates on map scoll 
+- Add options for credit logos , welcome image and etc....  
+
+
+**Blog Writting in Progress ..............**
