@@ -347,7 +347,7 @@ GOTO :
 
 ![image](https://github.com/user-attachments/assets/354946cf-cc97-4198-9485-1d0238272236)
 
-Navigate to processing parameters and play with the filter value , For me I am using 0.6 
+Navigate to processing parameters and play with the filter value , For me I am using 0.9 as There is quite some noise in my image  
 
 ![image](https://github.com/user-attachments/assets/8c06a684-c71e-4862-89b1-ae2ef9b04e54)
 
@@ -356,7 +356,7 @@ Hit RUN
 
 This is what I got as output , I have some noise in the right bottom part of image : for now it is okay but you can also play with it and increase the filter to 0.8 
 
-![image](https://github.com/user-attachments/assets/71eac44b-0069-4f73-95b5-46d9ae722234)
+![image](https://github.com/user-attachments/assets/e9523184-585e-448d-8314-b80b52d34a68)
 
 
 ## Creation of Displacement Map 
@@ -434,6 +434,118 @@ The time differs based on the performance of laptop & the number of tiles you ar
 
 
 
+### Import frm Snaphu 
+
+Now lets import the processing output from snaphu 
+Goto : 
+
+`Radar > Interferometric > Unwrapping > Snaphu Import`
+
+![image](https://github.com/user-attachments/assets/56fffe40-8c12-47b5-a140-5b32b692c6cb)
 
 
+Select the output file , Remember OUTFILE information is in `snaphu.conf`
+![image](https://github.com/user-attachments/assets/53691766-01e3-4098-8754-13a149c68254)
+
+Navigate to : 2 Read-Unwrapped-Phase & Open the result from snaphu 
+
+Select `.hdr` file format 
+
+
+![image](https://github.com/user-attachments/assets/43166ee8-7691-474e-8a82-ed87b1a095ad)
+
+
+Navigate to Snaphu Import and Tick on Don't save wrapped inferogram in the target Product 
+
+![image](https://github.com/user-attachments/assets/58f5fa38-3e4d-4116-845a-a1a845008248)
+
+Navigate to Write tab 
+
+And edit the name add _unwrapped in the name for disntinction 
+
+![image](https://github.com/user-attachments/assets/a162530f-547d-473b-9ad7-5044aeb0bec3)
+
+Hit Run 
+
+This is how my  output looks like 
+![image](https://github.com/user-attachments/assets/c2fbbfab-35db-416a-aeda-02c46f34bb1b)
+
+### Generate of Displacement Map 
+
+This step converts the unwrapped phase into displacement values, enabling the analysis of
+ground movement.
+
+Go to
+
+`Radar > Interferometric > Products > Phase to Displacement`
+
+![image](https://github.com/user-attachments/assets/263e547a-3ab2-4177-88bd-549d16e5144a)
+
+Hit RUN 
+
+This is how my displacement map looks like 
+![image](https://github.com/user-attachments/assets/0f7d172c-c227-49b5-a836-270b09a1cff7)
+
+### Terrain Correction 
+
+Terrain correction georeferences the displacement map to a coordinate system and removes
+distortions caused by topography, ensuring accurate spatial analysis.
+
+Goto : 
+
+`Radar > Geometric > Terrain Correction > Range-Doppler Terrain Correction`
+
+![image](https://github.com/user-attachments/assets/c972f6da-94a7-4491-bd26-a8650f075522)
+
+Navigate to Processing Parameters and Select DEM , I selected SRTM 1Sec 
+
+![image](https://github.com/user-attachments/assets/2a6566ae-b840-446d-b208-48844f064823)
+
+Hit Run 
+
+This is what I get as output 
+![image](https://github.com/user-attachments/assets/c90ee29c-7fee-4597-a2b3-44dcb1c9e545)
+
+Lets understand this displacement Map 
+
+I changed the visualization from left bottom window and changed editor to slider 
+![image](https://github.com/user-attachments/assets/ae9f987c-15c7-46be-89fd-5d06e49fce28)
+
+
+If you look into the value , Blue area was the area where terrain went down by approx 16 cm and nearby area terrain raised by 23.7 cm 
+
+![image](https://github.com/user-attachments/assets/217dd8aa-4dee-4eeb-815c-2cd8ea0bdba7)
+
+### Export displacement Map 
+
+Right click on the image 
+
+![image](https://github.com/user-attachments/assets/176ee8e1-b950-4776-8ad2-bb5db02fa23a)
+
+And Click on Export View as Google Earth KMZ 
+![image](https://github.com/user-attachments/assets/3e2e1050-41eb-43d7-a806-4678937dd712)
+
+Lets visualize this KMZ in QGIS 
+
+Set layer transparency to 50% so that we can visualize area where terrain went down and terrain went up after earthquake 
+
+![image](https://github.com/user-attachments/assets/42077a2b-5203-4e9c-a89b-2985cde6f59c)
+
+here is the output and as you can see area is nearly earthquake area and hence we can verify this output makes sense ! 
+![image](https://github.com/user-attachments/assets/3ec2e1db-36f5-4838-8242-d445a11f909e)
+
+You can also export image as geotiff and other formats as well 
+
+![image](https://github.com/user-attachments/assets/94849252-7b8a-49ce-be91-e5e26cdefa1c)
+
+
+Thank you for reading ! 
+
+
+## Sources and Credit : 
+
+- https://www.youtube.com/watch?v=ZPMRaztNbVU&t=393s
+- Prof. Karima Hadj-Rabah
+- Paris - Lodron University , Z-GIS Department 
+- ESA Snaphu Tutorial 
 
