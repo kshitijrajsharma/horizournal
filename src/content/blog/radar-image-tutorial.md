@@ -47,18 +47,18 @@ Click on filters Nearby search
 
 Here are the parameters for my Search filters : 
 
-**Area of Interest** : POINT(82.153 28.858) (You can convert your coords to WKT with https://wktmap.com/ )
-**Start Date** : 2023/10/01
-**End Date** : 2023/11/30 (To be on safe side I am trying to find image within two months frame to filter out the best image before and after the event )
-**File Type** : L1 Single Look Complex (SLC) ( SLC has both amplitude and phase , in GRD we have only amplitude . Here in displacement we need phase hence SLC ) 
-**Beam Mode** : IW ( Because IW- Interforemetric  covers Orbit and EW- extra wide swath covers Polar region ) 
+- **Area of Interest** : POINT(82.153 28.858) (You can convert your coords to WKT with https://wktmap.com/ )
+- **Start Date** : 2023/10/01
+- **End Date** : 2023/11/30 (To be on safe side I am trying to find image within two months frame to filter out the best image before and after the event )
+- **File Type** : L1 Single Look Complex (SLC) ( SLC has both amplitude and phase , in GRD we have only amplitude . Here in displacement we need phase hence SLC ) 
+- **Beam Mode** : IW ( Because IW- Interforemetric  covers Orbit and EW- extra wide swath covers Polar region ) 
 
 ![image](https://github.com/user-attachments/assets/1f65273f-1532-45db-9aac-3dc653dad16d)
 
 *Source : My professor  Karima Hadj-Rabah & Zahra Dabiri*
 
-**Polarizations** : VV ( Polarization doesn't really matter in phase differences , It matters in classification , Here we are selecting VV just to reduce the image size ) 
-**Direction** : Ascending  ( It doesn't matter as well because at the end we will do geocoding and correct the image so image going to be reotated anyway ) 
+- **Polarizations** : VV ( Polarization doesn't really matter in phase differences , It matters in classification , Here we are selecting VV just to reduce the image size ) 
+- **Direction** : Ascending  ( It doesn't matter as well because at the end we will do geocoding and correct the image so image going to be reotated anyway ) 
 
 ![image](https://github.com/user-attachments/assets/24f1370b-5855-4825-b966-1efe72f76f83)
 
@@ -86,6 +86,7 @@ For data preparation and image processing and analysis I am going to use a tool 
 
 ### Download SNAP : 
 https://step.esa.int/main/download/snap-download/ 
+
 SNAP is available for windows , mac and linux 
 I will be using linux , I downloaded all tollboxes
 
@@ -102,6 +103,7 @@ chmod +x esa-snap_all_linux-11.0.0.sh
 
 ### SNAP Operations 
 Open Snap it , Interface looks like this 
+
 ![image](https://github.com/user-attachments/assets/98fa95a8-acd1-4792-9e6c-488d64553e38)
 
 #### Load image 
@@ -118,9 +120,11 @@ Radar > Sentinel-1 TOPS > S-1 Tops Split
 
 Navigate to Processing Parameters 
 
-Subswath : IW1 
-Polarisation : VV 
-Bursts : 6 to 9 (For my area of interest bursts 6 to 9 covered the area , You should select the subswath and bursts accordingly . If you remember my are of intrest was in top left of the image , hence I selected the subswath that covers that area and bursts to minimize it )
+- **Subswath** : IW1 
+- **Polarisation** : VV 
+- **Bursts** : 6 to 9 (For my area of interest bursts 6 to 9 covered the area , 
+You should select the subswath and bursts accordingly . If you remember my are of intrest was in top left of the image , hence I selected the subswath that covers that area and bursts to minimize it )
+
 ![image](https://github.com/user-attachments/assets/6be06d2a-18eb-4da8-b6ad-e94db7e609d0)
 
 Lets rename the output file for readability 
@@ -447,7 +451,7 @@ Goto :
 Select the output file , Remember OUTFILE information is in `snaphu.conf`
 ![image](https://github.com/user-attachments/assets/53691766-01e3-4098-8754-13a149c68254)
 
-Navigate to : 2 Read-Unwrapped-Phase & Open the result from snaphu 
+Navigate to : **2 Read-Unwrapped-Phase** & Open the result from snaphu 
 
 Select `.hdr` file format 
 
@@ -455,11 +459,11 @@ Select `.hdr` file format
 ![image](https://github.com/user-attachments/assets/43166ee8-7691-474e-8a82-ed87b1a095ad)
 
 
-Navigate to Snaphu Import and Tick on Don't save wrapped inferogram in the target Product 
+Navigate to Snaphu Import and Tick on **Don't save wrapped inferogram in the target Product**
 
 ![image](https://github.com/user-attachments/assets/58f5fa38-3e4d-4116-845a-a1a845008248)
 
-Navigate to Write tab 
+Navigate to **Write** tab 
 
 And edit the name add _unwrapped in the name for disntinction 
 
