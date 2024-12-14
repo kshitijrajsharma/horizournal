@@ -6,7 +6,7 @@ featureImage:
   src: 'https://github.com/user-attachments/assets/f83b49a4-f8d2-45ad-abb9-1bd6d4251a18'
   alt: Earthquake Displacement
 isFeatured: false
-published: false
+published: true
 seo:
   image:
     src: 'https://github.com/user-attachments/assets/f83b49a4-f8d2-45ad-abb9-1bd6d4251a18'
@@ -434,7 +434,7 @@ The time differs based on the performance of laptop & the number of tiles you ar
 
 
 
-### Import frm Snaphu 
+### Import from Snaphu 
 
 Now lets import the processing output from snaphu 
 Goto : 
