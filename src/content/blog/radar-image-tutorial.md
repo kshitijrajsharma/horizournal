@@ -370,13 +370,17 @@ For this output : We need this plugin to be installed : https://step.esa.int/mai
 ![image](https://github.com/user-attachments/assets/63f5a778-40a7-493e-8c0b-4c006d9049d6)
 
 
-.... addd installation method for linux atleast .... 
+For Debian based distributions, You can install it directly from the apt 
+```bash
+sudo apt get update
+sudo apt install snaphu
+``` 
 
 ### Export env for snaphu 
 Lets create env needed for snaphu 
 
 GO TO 
-`Radar > Interferometric > Unwrapping > SNAPHU Import`
+`Radar > Interferometric > Unwrapping > SNAPHU Export`
 
 ![image](https://github.com/user-attachments/assets/9551a64c-7afc-4ec1-bc2f-2ef4d2221978)
 
@@ -384,7 +388,7 @@ Navigate to SnaphuExport
 
 Select the folder where output would be stored ( Recommended to create new folder ) , For me I created snaphu-export folder with snaphu_output filename 
 
-Change No of tile rows and tile columns and number of processer based on your laptop spec , For me I used 8 processers and 10 rows/column
+Change No of tile rows and tile columns and number of processer based on your laptop spec , For me I used 8 processers and 10 rows/column . Bearing in mind if you set 1 tile per time it will disable the multiprocesser option ! It is advised to process tiles in parallel 
 
 ![image](https://github.com/user-attachments/assets/e552da8d-5239-4b2e-a4bb-05619c28fb0b)
 
@@ -424,7 +428,7 @@ Now you will find the command on top of the file, Copy & run the command in term
 ![image](https://github.com/user-attachments/assets/bdae6c28-fb57-42a3-a5bc-da472883f08c)
 
 
-The time differs based on the performance of laptop , For me it took 1 min 43 sec 
+The time differs based on the performance of laptop & the number of tiles you are processing based on your parameter in snaphu export , For me it took 1 min 43 sec 
 
 ![image](https://github.com/user-attachments/assets/3020dbce-dc0e-46f7-aeb3-9cc9baa4b8c5)
 
