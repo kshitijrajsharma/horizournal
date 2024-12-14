@@ -13,7 +13,7 @@ seo:
 
 I'm Kshitij Raj Sharma, a **passionate spatial developer** and I talk open source. Born and raised in western rural Nepal, I pursued my passion for geomatics, graduating from the Institute of Engineering at Tribhuvan University Nepal.
 
-My contributions to OpenStreetMap and Geospatial Deelopment date back to **2015**, My first contribution was creation of Nepali  OSMTracker android application to perform local surveying.
+My contributions to OpenStreetMap and Geospatial Deelopment date back to **2016**, My first contribution was creation of Nepali  OSMTracker android application to perform local surveying.
 
 ## What Drives Me ?
 
