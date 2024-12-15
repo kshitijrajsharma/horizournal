@@ -6,6 +6,8 @@ featureImage:
   src: '/posts/sam/images/image5.png'
   alt: Segment Anything Running on Drone Image
 seo:
+  title : Segment Anything (SAM) and OpenStreetMap(OSM)
+  description: Research between SAM model and possible integration with OpenStreetMap
   image:
     src: '/posts/sam/images/image11.png'
 ---

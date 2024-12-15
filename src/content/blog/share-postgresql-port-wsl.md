@@ -6,6 +6,8 @@ featureImage:
   src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkinsta.com%2Fwp-content%2Fuploads%2F2022%2F02%2Fpostgres-logo.png&f=1&nofb=1&ipt=9d3d26d4dc21bc1a9c03ea786a13c5e38172fc73e76782d64da409e2d31f4e35&ipo=images'
   alt: Postgresql logo
 seo:
+  title : Sharing Postgresql from Windows to WSL Linux
+  description : Sharing Postgresql from Windows to WSL Linux
   image:
     src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkinsta.com%2Fwp-content%2Fuploads%2F2022%2F02%2Fpostgres-logo.png&f=1&nofb=1&ipt=9d3d26d4dc21bc1a9c03ea786a13c5e38172fc73e76782d64da409e2d31f4e35&ipo=images'
 ---

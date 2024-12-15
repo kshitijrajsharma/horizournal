@@ -6,6 +6,8 @@ featureImage:
   src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcodewithbish.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fcodewithbish-Guide-to-install-Windows-Subsystem-for-Linux-WSL-2-on-windows-10.png&f=1&nofb=1&ipt=c0e79c689be5cf3d82c8d73a120ebc5cdc72e374f82f9e67014a19615905c6f2&ipo=images'
   alt: Windows + WSL
 seo:
+  title: Install debian in windows 
+  description: How to install debian in windows using WSL
   image:
     src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcodewithbish.com%2Fwp-content%2Fuploads%2F2021%2F06%2Fcodewithbish-Guide-to-install-Windows-Subsystem-for-Linux-WSL-2-on-windows-10.png&f=1&nofb=1&ipt=c0e79c689be5cf3d82c8d73a120ebc5cdc72e374f82f9e67014a19615905c6f2&ipo=images'
 ---

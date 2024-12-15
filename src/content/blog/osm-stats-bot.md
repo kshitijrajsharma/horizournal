@@ -7,6 +7,8 @@ featureImage:
   alt: osm stats repo
 seo:
   image:
+    title: OSM-Stats
+    description: Automatic stats tracker for OpenStreetMap contributions 
     src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopengraph.githubassets.com%2Fd603a5590d9dd857fe76cba598b77795a16e65b50fb13a8e21603e58d40169f6%2Fkshitijrajsharma%2FOSMSG&f=1&nofb=1&ipt=88ecbc64f4ae00edbc71e8ed3a9d56f72bc64ff311956f8b06973866a76f1288&ipo=images'
 ---
 Hi all ! 

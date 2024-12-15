@@ -9,6 +9,8 @@ isFeatured: false
 published: false
 seo:
   image:
+    title: OpenSource Story Map
+    description: Lists of alternative for ESRI Story Maps 
     src: 'https://github.com/user-attachments/assets/a3130132-dd4e-4d10-aaa7-1618eee6bb9e'
 ---
 During one of my assignment , I wanted to create story map that is open , free to use and available to everybody . ESRI story maps are popular however ESRI being commercial provider and you need license or vendor locked to use their products . So hunt for open source alternatives begins. 

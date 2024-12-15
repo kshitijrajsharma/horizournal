@@ -9,6 +9,8 @@ isFeatured: false
 published: true
 seo:
   image:
+    title : Working with RADAR, Sentinel 1 Image 
+    description: Using sentinel 1 , Processing image to create displacement map 
     src: 'https://github.com/user-attachments/assets/ae9f987c-15c7-46be-89fd-5d06e49fce28'
 ---
 The goal of this tutorial is to share my experience and steps I followed when I tried to work with Sentinel-1 Radar Data to findout the displacement caused by the earthquake in Nepal. 

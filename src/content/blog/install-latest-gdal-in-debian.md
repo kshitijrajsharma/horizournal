@@ -6,7 +6,9 @@ featureImage:
   src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdiversistemas.files.wordpress.com%2F2023%2F06%2Fdebian-12f.jpg%3Fw%3D536&f=1&nofb=1&ipt=d6f3717670b344b544778b3cfae5eec2ce720de2662872455f152237e26d56c7&ipo=images'
   alt: Debian 12
 seo:
-  image:
+  title: Install latest gdal in debian 
+  description: How to install gdal in debian ? 
+  image: 
     src: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia2.dev.to%2Fdynamic%2Fimage%2Fwidth%3D1000%2Cheight%3D500%2Cfit%3Dcover%2Cgravity%3Dauto%2Cformat%3Dauto%2Fhttps%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkoyv4z09fpwt1hvkn5ke.png&f=1&nofb=1&ipt=78c8dd799db97b4175a3260759cca1543910467bdca9b9160736fbd93c317ef3&ipo=images'
 ---
 Hi , I am writting short steps about how to install latest gdal version in your debian stable. 

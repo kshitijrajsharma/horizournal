@@ -7,6 +7,8 @@ featureImage:
   src: 'https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fgithub.com%2Fuser-attachments%2Fassets%2Fde0a7993-b2c9-42b8-950e-b41c5c88c642'
   alt: ESRI Landcover analysis with h3
 seo:
+  title: Raster analysis using uber h3 indexes and Postgres
+  description: Using h3 index on raster images 
   image:
     src: 'https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fgithub.com%2Fuser-attachments%2Fassets%2Fde0a7993-b2c9-42b8-950e-b41c5c88c642'
 ---

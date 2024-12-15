@@ -6,6 +6,8 @@ featureImage:
   src: 'https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhqko9wyts1582xl75rrl.png'
   alt: Overture Map Viewer
 seo:
+  title: Explore OvertureMap Data 
+  description: Qualitative quantitative analysis of overturemap data quality
   image:
     src: 'https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhqko9wyts1582xl75rrl.png'
 ---

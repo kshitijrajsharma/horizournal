@@ -7,6 +7,8 @@ featureImage:
   alt: cde logo
 isFeatured: true
 seo:
+  title: Copernicus masters 
+  description: I joined Geodata Science and GeoAI track 
   image:
     src: '/posts/cde-logo.png'
 ---
