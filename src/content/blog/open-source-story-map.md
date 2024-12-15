@@ -21,6 +21,11 @@ During one of my assignment , I wanted to create story map that is open , free t
 
 Explaination ..... Features , Advantages , Disadvantages [TBD]
 
+StoryMapJS is a free tool to help you tell stories on the web that highlight the locations of a series of events.
+Example : 
+![image](https://github.com/user-attachments/assets/3aefa920-e1fe-4adf-a2ce-6eb93d0da41d)
+It has good solid and easy to use method to develop division based on icon on maps , But it doesn't support more division like map animation , Scrolling page ! 
+
 2) [Maplibre- StoryMap](https://github.com/digidem/maplibre-storymap) 
 
 
