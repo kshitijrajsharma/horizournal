@@ -7,9 +7,9 @@ featureImage:
   alt: sentinel-2 h3 indices
   caption: H3 indices after computation
 seo:
+  title : Process Multiband Rasters with h3 index 
+  description: Processing sentinel 2 images with h3 cells 
   image:
-    title : Process Multiband Rasters with h3 index 
-    description: Processing sentinel 2 images with h3 cells 
     src: 'https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fgithub.com%2Fuser-attachments%2Fassets%2Fe5ec71b9-d56b-4d93-9ad7-ba9b431bbe70'
 ---
 
