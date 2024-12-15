@@ -1,13 +1,13 @@
 ---
 title: About
 featureImage:
-  src: 'https://github.com/user-attachments/assets/a547cac3-c33f-40b8-bafc-57120a3b6b79'
+  src: '/kshitiz.png'
   alt: The portrait of a person
 seo:
   title: About
   description: About Kshitiz Raj Sharma
   image:
-    src: 'https://github.com/user-attachments/assets/a547cac3-c33f-40b8-bafc-57120a3b6b79'
+    src: '/kshitiz.png'
 ---
 
 
