@@ -5,6 +5,7 @@ seo:
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
+![image1](https://github.com/user-attachments/assets/a547cac3-c33f-40b8-bafc-57120a3b6b79)
 
 Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
 
