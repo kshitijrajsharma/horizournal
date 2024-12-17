@@ -13,7 +13,7 @@ const posts = (await getCollection("blog"))
   .filter((post) => post.data.published)
   .sort(sortPostsByDateDesc);
 const featuredPosts = posts.filter(({ data }) => data.isFeatured);
-const latestPosts = posts.filter(({ data }) => !data.isFeatured).slice(0, 3);
+const latestPosts = posts.filter(({ data }) => !data.isFeatured).slice(0, 4);
 ---
 
 <NoHeaderLayout description={siteConfig.description} image={siteConfig.image}>
