@@ -79,6 +79,8 @@ Here are the parameters for my Search filters :
 
 ![image](https://github.com/user-attachments/assets/24f1370b-5855-4825-b966-1efe72f76f83)
 
+*You can get rid of direction , polarization filter if nothing shows up ! It's okay !*
+
 Search Results : 
 
 ![image](https://github.com/user-attachments/assets/331c549b-f48c-4107-b923-00478736d8b4)
@@ -90,9 +92,13 @@ I am selecting two image based on my region of interest :
 
 if you look closely to the footprint image top left has my region of interest specifically 
 
+
+**Important** : You need to make sure both of the image you are downloading ( before and after ) They should be overlapping , otherwise you won't be able to calculate the displacement between two images if they are not of the same region 
+
 ![image](https://github.com/user-attachments/assets/2fd73887-3628-4ff8-a647-1fc62d67cf64)
 
 You need to create account in order to download the image.
+
 
 *Note : 
 As some of the required steps are computationally intensive, it is good to store the data at a location which offers good reading and writing speed. If your computer has an internal SSD, processing should be done there to ensure best performance. (Credit : ESA Tutorial)*
