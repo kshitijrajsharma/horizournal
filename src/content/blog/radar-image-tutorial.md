@@ -13,7 +13,7 @@ seo:
   image:
     src: 'https://github.com/user-attachments/assets/ae9f987c-15c7-46be-89fd-5d06e49fce28'
 ---
-The goal of this tutorial is to share my experience and steps I followed when I tried to work with Sentinel-1 Radar Data to findout the displacement caused by the earthquake in Nepal. 
+The goal of this tutorial is to share my experience and steps I followed when I tried to work with Sentinel-1 Radar Data to estimate the displacement caused by the earthquake in Nepal. 
 
 
 ## Table of Contents
@@ -38,11 +38,11 @@ The goal of this tutorial is to share my experience and steps I followed when I 
 
 *Source :  https://edition.cnn.com/2023/11/03/asia/nepal-earthquake-northwest-hnk-intl/index.html*
 
-There was a deadly earthquake in Early November 2023 which killed more than 157 people as per CNN . I wanted to figure out how much displacement it has cased in the area , Did topography went up ? or went down. As we know due to tectonic plates movement it will always result in displacement ! 
+There was a deadly earthquake in Early November 2023 which killed more than 157 people as per CNN . I wanted to figure out how much displacement it has cased in the area , Did topography rise ? or fall. As we know due to tectonic plates movement it will always result in displacement ! 
 
 ## Preparation 
 
-Lets first verify that event exists , get the event details from USGS . USGS mainatains the eartquake catalog which will give the event date, magnitude and approx coordinate for the event .  
+Lets first verify that event exists , get the event details from USGS . USGS mainatains the eartquake catalog which will give the event date, magnitude and  coordinate for the event .  
 https://earthquake.usgs.gov/earthquakes/search/ 
 
 ![image](https://github.com/user-attachments/assets/63f37491-d0bd-4da5-b560-64d9a70922a8)
@@ -184,7 +184,7 @@ Visualize the image side by  side from
 
 ### Orbit Correction 
 
-Technically we suppose that satellite is following perfect line , But in reality there is vibration in satellite and is not really stable . Hence we need to apply correction on the orbit path 
+Technically we suppose that satellite is following perfect line , But in reality there is vibration in satellite and is not really stable . Hence we need to apply a correction in order to account for the orbital path
 
 `Radar > Apply Orbit File`
 
@@ -297,7 +297,7 @@ You should have new filenamewith_ifg extension
 
 ### TOPSAR Deburst 
 
-To remove the seamlines between the single bursts we use TOPSAR Deburst 
+To remove the demarcation between the single bursts we use TOPSAR Deburst 
 
 Go TO : 
 
@@ -582,7 +582,7 @@ Thank you for reading !
 ## Sources and Credit : 
 
 - https://www.youtube.com/watch?v=ZPMRaztNbVU&t=393s
-- Prof. Karima Hadj-Rabah
+- Dr. Karima Hadj-Rabah
 - My classmate Sahar for her help during blog creation
 - [Paris - Lodron University , Z-GIS Department](https://www.plus.ac.at/) 
 - [ESA Snaphu Tutorial](https://github.com/kshitijrajsharma/horizournal/blob/main/src/content/blog/esa-radar-tutorial.pdf)
