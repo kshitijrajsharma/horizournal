@@ -93,7 +93,7 @@ I am selecting two image based on my region of interest :
 if you look closely to the footprint image top left has my region of interest specifically 
 
 
-**Important** : You need to make sure both of the image you are downloading ( before and after ) They should be overlapping , otherwise you won't be able to calculate the displacement between two images if they are not of the same region 
+**Important** : You need to make sure both of the image you are downloading ( before and after ) They should be overlapping , otherwise you won't be able to calculate the displacement between two images if they are not of the same region. Which is why for me I get the before and after image of the same footprint to make sure image match and will be easy to visualize later on stacking 
 
 ![image](https://github.com/user-attachments/assets/2fd73887-3628-4ff8-a647-1fc62d67cf64)
 
