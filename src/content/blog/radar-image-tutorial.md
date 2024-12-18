@@ -131,7 +131,7 @@ Open Snap it , Interface looks like this
 ![image](https://github.com/user-attachments/assets/98fa95a8-acd1-4792-9e6c-488d64553e38)
 
 #### Load image 
-Our downloaded image would be in .zip folder , Don't unzip them simply open them in SNAP 
+Our downloaded image would be in .zip folder , **Don't unzip them** simply open them in SNAP 
 
 `File > Open Product > Select your both before after images > Open` 
 
