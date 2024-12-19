@@ -93,7 +93,7 @@ I am selecting two image based on my region of interest :
 if you look closely to the footprint image top left has my region of interest specifically 
 
 
-**Important** : You need to make sure both of the image you are downloading ( before and after ) They should be overlapping , otherwise you won't be able to calculate the displacement between two images if they are not of the same region. Which is why for me I get the before and after image of the same footprint to make sure image match and will be easy to visualize later on stacking 
+**Important** : You need to make sure both of the image you are downloading ( before and after ) They should be overlapping , otherwise you won't be able to calculate the displacement between two images if they are not of the same region. Which is why for me, I get the before and after image of the same footprint to make sure image match and will be easy to visualize later on stacking 
 
 ![image](https://github.com/user-attachments/assets/2fd73887-3628-4ff8-a647-1fc62d67cf64)
 
@@ -101,11 +101,11 @@ You need to create account in order to download the image.
 
 
 *Note : 
-As some of the required steps are computationally intensive, it is good to store the data at a location which offers good reading and writing speed. If your computer has an internal SSD, processing should be done there to ensure best performance. (Credit : ESA Tutorial)*
+As some required steps are computationally intensive, it is good to store the data at a location which offers good reading and writing speed. If your computer has an internal SSD, processing should be done there to ensure the best performance. (Credit : ESA Tutorial)*
 
 ## Data preparation
 
-For data preparation and image processing and analysis I am going to use a tool called **SNAP** . **SNAP (Sentinel Application Platform)** is a earth observation processing open-source software developed by ESA 
+For data preparation and image processing and analysis I am going to use a tool called **SNAP** . **SNAP (Sentinel Application Platform)** is an earth observation processing open-source software developed by ESA 
 
 
 ### Download SNAP : 
