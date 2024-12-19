@@ -50,4 +50,10 @@ Thank you for your support!
 
 Chao ! 
 
-![EU_POS_transparent](/EU_POS_transparent.png) ![PLUS_Logo-transparent](/PLUS_Logo-transparent.png) ![ubs_logo](/ubs_logo.png)
+<table>
+  <tr>
+    <td><img src="/EU_POS_transparent.png" alt="EU_POS_transparent" style="width: 400px; height: 100px;"></td>
+    <td><img src="/PLUS_Logo-transparent.png" alt="PLUS_Logo-transparent" style="width: 200px; height: 100px;"></td>
+    <td><img src="/ubs_logo.png" alt="ubs_logo" style="width: 200px; height: 100px;"></td>
+  </tr>
+</table>
