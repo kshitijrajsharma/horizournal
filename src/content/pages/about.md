@@ -49,4 +49,4 @@ I love my pets. I love writing and reading poems. When not working, I play baske
 ![lovies](/posts/cats-dogs.png)
 
 
-Thank you for visiting my blog. I hope to learn , be better than I was yesterday ! 
+Thank you for visiting my blog. **I hope to learn & be better than I was yesterday !** 
