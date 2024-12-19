@@ -42,12 +42,12 @@ There was a deadly earthquake in Early November 2023 which killed more than 157 
 
 ## Preparation 
 
-Lets first verify that event exists , get the event details from USGS . USGS mainatains the eartquake catalog which will give the event date, magnitude and  coordinate for the event .  
+Lets first verify that event exists , get the event details from USGS . USGS maintains the earthquake catalog which will give the event date, magnitude and  coordinate for the event .  
 https://earthquake.usgs.gov/earthquakes/search/ 
 
 ![image](https://github.com/user-attachments/assets/63f37491-d0bd-4da5-b560-64d9a70922a8)
 
-Prepare your filter accordingly to  your event , For us as CNN reported the incident in november 3 , I am keeping filter from Novemeber 2 to 4  in Jajarkot Area . This is how my search filter result looks like : https://earthquake.usgs.gov/earthquakes/map/?currentFeatureId=us7000l8p5&extent=22.2586%2C75.81665&extent=31.72817%2C91.70288&range=search&sort=largest&search=%7B%22name%22%3A%22Search+Results%22%2C%22params%22%3A%7B%22starttime%22%3A%222022-01-01+00%3A00%3A00%22%2C%22endtime%22%3A%222024-12-08+23%3A59%3A59%22%2C%22maxlatitude%22%3A32.319%2C%22minlatitude%22%3A24.121%2C%22maxlongitude%22%3A89.868%2C%22minlongitude%22%3A78.354%2C%22minmagnitude%22%3A5%2C%22orderby%22%3A%22magnitude%22%7D%7D 
+Prepare your filter accordingly to  your event , For us as CNN reported the incident in november 3 , I am keeping filter from November 2 to 4  in Jajarkot Area . This is how my search filter result looks like : https://earthquake.usgs.gov/earthquakes/map/?currentFeatureId=us7000l8p5&extent=22.2586%2C75.81665&extent=31.72817%2C91.70288&range=search&sort=largest&search=%7B%22name%22%3A%22Search+Results%22%2C%22params%22%3A%7B%22starttime%22%3A%222022-01-01+00%3A00%3A00%22%2C%22endtime%22%3A%222024-12-08+23%3A59%3A59%22%2C%22maxlatitude%22%3A32.319%2C%22minlatitude%22%3A24.121%2C%22maxlongitude%22%3A89.868%2C%22minlongitude%22%3A78.354%2C%22minmagnitude%22%3A5%2C%22orderby%22%3A%22magnitude%22%7D%7D 
 ![image](https://github.com/user-attachments/assets/c2b571ce-920b-435c-9d5c-f4fc3410c854)
 
 We found event details , it's coordinate and confirmation from USGS , Now we can move forward to downloading the Sentinel Image 
@@ -68,14 +68,14 @@ Here are the parameters for my Search filters :
 - **Start Date** : 2023/10/01
 - **End Date** : 2023/11/30 (To be on safe side I am trying to find image within two months frame to filter out the best image before and after the event )
 - **File Type** : L1 Single Look Complex (SLC) ( SLC has both amplitude and phase , in GRD we have only amplitude . Here in displacement we need phase hence SLC ) 
-- **Beam Mode** : IW ( Because IW- Interforemetric  covers Orbit and EW- extra wide swath covers Polar region ) 
+- **Beam Mode** : IW ( Because IW- Interferometric  covers Orbit and EW- extra wide swath covers Polar region ) 
 
 ![image](https://github.com/user-attachments/assets/1f65273f-1532-45db-9aac-3dc653dad16d)
 
 *Source : My Lecturer  Dr.Karima Hadj-Rabah & Dr.Zahra Dabiri*
 
 - **Polarizations** : VV ( Polarization doesn't really matter in phase differences , It matters in classification , Here we are selecting VV just to reduce the image size ) 
-- **Direction** : Ascending  ( It doesn't matter as well because at the end we will do geocoding and correct the image so image going to be reotated anyway ) 
+- **Direction** : Ascending  ( It doesn't matter as well because at the end we will do geocoding and correct the image so image going to be rotated anyway ) 
 
 ![image](https://github.com/user-attachments/assets/24f1370b-5855-4825-b966-1efe72f76f83)
 
@@ -87,7 +87,7 @@ Search Results :
 
 I am selecting two image based on my region of interest : 
 
-- **After the event** :: Novemeber 10, 2023
+- **After the event** :: November 10, 2023
 - **Before the event** :: October 17,2023
 
 if you look closely to the footprint image top left has my region of interest specifically 
@@ -112,7 +112,7 @@ For data preparation and image processing and analysis I am going to use a tool 
 https://step.esa.int/main/download/snap-download/ 
 
 SNAP is available for windows , mac and linux 
-I will be using linux , I downloaded all tollboxes
+I will be using linux , I downloaded all toolboxes
 
 ![image](https://github.com/user-attachments/assets/5b5ba68d-4e72-4620-9b07-1e2724b34118)
 
@@ -148,9 +148,9 @@ Goto
 Navigate to **Processing Parameters** 
 
 - **Subswath** : IW1 
-- **Polarisation** : VV 
+- **Polarization** : VV 
 - **Bursts** : 6 to 9 (For my area of interest bursts 6 to 9 covered the area , 
-You should select the subswath and bursts accordingly . If you remember my are of intrest was in top left of the image , hence I selected the subswath that covers that area and bursts to minimize it )
+You should select the subswath and bursts accordingly . If you remember my are of interest was in top left of the image , hence I selected the subswath that covers that area and bursts to minimize it )
 
 ![image](https://github.com/user-attachments/assets/6be06d2a-18eb-4da8-b6ad-e94db7e609d0)
 
@@ -160,7 +160,7 @@ Lets rename the output file for readability
 
 Hit **Run** 
 
-You should have the splitted file and now 
+You should have the split  file and now 
 
 ![image](https://github.com/user-attachments/assets/e7527c76-821e-42ac-906a-5b91fb80811a)
 
@@ -190,7 +190,7 @@ Technically we suppose that satellite is following perfect line , But in reality
 
 ![image](https://github.com/user-attachments/assets/7d72d659-267f-4237-8273-b70d8649f788)
 
-Go to Processing Parameters and Check Do not fail if new orbit file is not found to make sure our process doesn't fail even though orbit file not found ( Because orbit file is only available after two weeks of the acqusition at the moment ) 
+Go to Processing Parameters and Check Do not fail if new orbit file is not found to make sure our process doesn't fail even though orbit file not found ( Because orbit file is only available after two weeks of the acquisition at the moment ) 
 
 ![image](https://github.com/user-attachments/assets/4aa65093-b705-4ab5-b6dc-7431095392c3)
 
@@ -246,13 +246,13 @@ Select the DEM source : For me I am selecting SRTM 1Sec
 
 Press **Run** 
 
-You shuold have new stack image with both of your image stacked together , You shouldbe able to see your before and after image intensity 
+You shuold have new stack image with both of your image stacked together , You should be able to see your before and after image intensity 
 
 ![image](https://github.com/user-attachments/assets/af63c0a8-eb77-4a45-9f5a-b0d5d2ebc472)
 
 ### Enhanced Spectral diversity 
 
-In order to improve the quality of the after image as related to before , Inorder to remove inospheric error this step is used . 
+In order to improve the quality of the after image as related to before , In order to remove ionospheric error this step is used . 
 
 Go to : 
 
@@ -366,7 +366,7 @@ For me I am using
 - **Range Looks** : 8 
 - **Azimuth Looks** : 2 
 
-Because it results approx **30m** resolution which is enough for me because usualy displacement will happen in larger level, You can see the resolution after the value changes
+Because it results approx **30m** resolution which is enough for me because usually displacement will happen in larger level, You can see the resolution after the value changes
 
 ![image](https://github.com/user-attachments/assets/3e9ca2ba-e190-4c7b-bdad-8dede9f5b4d4)
 
@@ -376,7 +376,7 @@ This is how output looks like
 
 ### Goldstein Phase Filtering 
 
-Lets filter the noise so that we can improve visual interpretability of differential interferogram.
+Lets filter the noise so that we can improve visual interoperability of differential interferogram.
 
 GOTO : 
 
@@ -398,7 +398,7 @@ This is what I got as output , I have some noise in the right bottom part of ima
 
 ## Creation of Displacement Map 
 
-### Dowload snaphu plugin 
+### Download snaphu plugin  
 The wrapped phase values need to be unwrapped to obtain continuous displacement
 measurements.
 
@@ -425,7 +425,7 @@ Navigate to **SnaphuExport**
 
 Select the folder where output would be stored ( Recommended to create new folder ) , For me I created snaphu-export folder with snaphu_output filename 
 
-Change No of tile rows and tile columns and number of processer based on your laptop spec , For me I used **8 processers** and **10 rows/column** . Bearing in mind if you set 1 tile per time it will `disable the multiprocesser option` ! It is advised to process tiles in parallel 
+Change No of tile rows and tile columns and number of processor based on your laptop spec , For me I used **8 processors** and **10 rows/column** . Bearing in mind if you set 1 tile per time it will `disable the multiprocesser option` ! It is advised to process tiles in parallel 
 
 ![image](https://github.com/user-attachments/assets/e552da8d-5239-4b2e-a4bb-05619c28fb0b)
 
@@ -492,13 +492,13 @@ Select `.hdr` file format
 ![image](https://github.com/user-attachments/assets/43166ee8-7691-474e-8a82-ed87b1a095ad)
 
 
-Navigate to **Snaphu Import** and Tick on **Don't save wrapped inferogram in the target Product**
+Navigate to **Snaphu Import** and Tick on **Don't save wrapped interferogram in the target Product**
 
 ![image](https://github.com/user-attachments/assets/58f5fa38-3e4d-4116-845a-a1a845008248)
 
 Navigate to **Write** tab 
 
-And edit the name add _unwrapped in the name for disntinction 
+And edit the name add _unwrapped in the name for distinction 
 
 ![image](https://github.com/user-attachments/assets/a162530f-547d-473b-9ad7-5044aeb0bec3)
 
