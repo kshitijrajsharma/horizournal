@@ -31,6 +31,8 @@ The GeoData Science and GeoAI (AI4EO) track is part of the Copernicus Masters in
 - **Learning from Experts**: The program offers the opportunity to learn from industry-leading experts and researchers in the field.
 - **Hands-On Experience**: Students will work on real-world projects and gain practical experience in applying AI to geospatial data.
 
+Learn More About Program : https://master-cde.eu/ 
+
 ## My Goals
 
 During my time in the program, I want to:
@@ -47,3 +49,5 @@ I am looking forward to the challenges and opportunities ahead. GeoData Science 
 Thank you for your support!
 
 Chao ! 
+
+![EU_POS_transparent](/EU_POS_transparent.png) ![PLUS_Logo-transparent](/PLUS_Logo-transparent.png) ![ubs_logo](/ubs_logo.png)
