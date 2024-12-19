@@ -72,7 +72,7 @@ Here are the parameters for my Search filters :
 
 ![image](https://github.com/user-attachments/assets/1f65273f-1532-45db-9aac-3dc653dad16d)
 
-*Source : My professor  Karima Hadj-Rabah & Zahra Dabiri*
+*Source : My Lecturer  Dr.Karima Hadj-Rabah & Dr.Zahra Dabiri*
 
 - **Polarizations** : VV ( Polarization doesn't really matter in phase differences , It matters in classification , Here we are selecting VV just to reduce the image size ) 
 - **Direction** : Ascending  ( It doesn't matter as well because at the end we will do geocoding and correct the image so image going to be reotated anyway ) 
@@ -206,7 +206,7 @@ A topographic interferogram highlights differences in phase caused by terrain el
 
 ![image](https://github.com/user-attachments/assets/b395e0e3-8cc2-4b2d-bff4-30776601d88d)
 
-*Source ( Prof : Karima )*
+*Source ( Dr. Karima )*
 
 #### Cleanup 
 
@@ -319,7 +319,7 @@ changes caused by ground displacement.
 
 ![image](https://github.com/user-attachments/assets/e0985e1f-42ac-4cef-ab3c-56f9623d85c4)
 
-*Source : Prof Karima*
+*Source : Dr. Karima*
 
 
 ### Interferogram formation 
