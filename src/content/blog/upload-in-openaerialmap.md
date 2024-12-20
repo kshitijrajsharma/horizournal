@@ -74,3 +74,8 @@ Since we used our area of interest to create this orthophoto as there will be pi
 Finally , Now you can upload your rendered clip RGB image  to OpenAerialMap.
 
 <img width="1193" alt="image" src="https://github.com/kshitijrajsharma/e2etemplate/assets/36752999/c0ca703d-b3c8-4aae-9411-05517dd9d8e9">
+
+## Resources and Credits 
+- OpenAerialMap 
+- Sujan Paudel 
+- e2e workshop in https://cligeos2024.conscor.com/ 
