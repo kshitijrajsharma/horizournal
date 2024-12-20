@@ -1,5 +1,5 @@
 ---
-title: 'Working with open imagery of the world ? : OpenAerialMap'
+title: 'Working with open imagery of the world ? Upload your images in OpenAerialMap '
 excerpt: OpenAerialMap is an open service to provide access to a commons of openly licensed imagery and map layer services. Download or contribute imagery to the growing commons of openly licensed imagery. This short tutorial will document the steps needed to process and publish your images in OpenAerialMap.
 publishDate: 'Apr 20 2024'
 featureImage:
