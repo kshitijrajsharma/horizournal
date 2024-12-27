@@ -34,6 +34,12 @@ Size :
 
 2.1 GB for the merged file 
 
+Conversion to 4326 
+```bash
+gdalwarp -overwrite sentinel_r10.tif sentinel_r10_4326.tif -t_srs EPSG:4326
+```
+
+
 Conversion to COG : 
 
 ```bash
