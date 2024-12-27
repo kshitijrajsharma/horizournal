@@ -30,3 +30,18 @@ gdalinfo sentinel_r10.tif
 Size : 
 
 2.1 GB for the merged file 
+
+Conversion to COG : 
+
+```bash
+gdal_translate -of COG sentinel_r10.tif sentinel2_cog_r10.tif
+```
+
+GDAL info
+
+```bash
+ gdalinfo sentinel2_cog_r10.tif
+```
+![image](https://github.com/user-attachments/assets/35b30344-5ac1-4cf1-9f8e-b083acc829f2)
+
+
