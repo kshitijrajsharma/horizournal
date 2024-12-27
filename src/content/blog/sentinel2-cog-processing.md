@@ -27,6 +27,9 @@ Check :
 gdalinfo sentinel_r10.tif
 ```
 
+![image](https://github.com/user-attachments/assets/e38aaf11-b2c7-466d-909e-b20fa348be8d)
+
+
 Size : 
 
 2.1 GB for the merged file 
