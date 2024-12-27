@@ -12,7 +12,7 @@ ls -1 *.jp2 > jp2_list.txt
 Merge
 
 ```bash
-gdal_merge.py -separate -o sentinel_r10.tif --optfile jp2_list.txt
+gdal_merge.py -separate --optfile jp2_list.txt -o sentinel_r10.tif 
 ```
 
 Or
