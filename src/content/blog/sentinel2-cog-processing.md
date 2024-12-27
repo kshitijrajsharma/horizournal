@@ -37,7 +37,7 @@ Size :
 Conversion to COG : 
 
 ```bash
-gdal_translate -of COG sentinel_r10.tif sentinel2_cog_r10.tif
+gdal_translate -of COG sentinel_r10.tif sentinel2_cog_r10.tif -co TILING_SCHEME=GoogleMapsCompatible -co NUM_THREADS=32 -co COMPRESS=DEFLATE
 ```
 
 GDAL info
