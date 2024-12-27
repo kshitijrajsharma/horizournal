@@ -43,7 +43,7 @@ gdalwarp -overwrite sentinel_r10.tif sentinel_r10_4326.tif -t_srs EPSG:4326
 Conversion to COG : 
 
 ```bash
-gdal_translate -of COG sentinel_r10_4326.tif sentinel_r10_4326_cog.tif -co TILING_SCHEME=GoogleMapsCompatible -co NUM_THREADS=32 -co COMPRESS=DEFLATE
+gdal_translate -of COG sentinel_r10_4326.tif sentinel_r10_4326_cog.tif  -co NUM_THREADS=32 -co COMPRESS=DEFLATE -co BIGTIFF=YES -co TILING_SCHEME=GoogleMapsCompatible -co LEVEL=9
 ```
 
 GDAL info
