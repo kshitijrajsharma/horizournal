@@ -64,6 +64,8 @@ Analyzing problems efficiently with *research*, figuring out new *ideas*, and *i
   *Institute of Engineering, Pokhara, Nepal (2015 – 2019)*  
   *Courses:* Python, Machine Learning, GIS, Remote Sensing, DBMS, Cartography, Photogrammetry, Geodesy, Cadastre , [Full List Here](https://ioepas.edu.np/geomatics-engineering/syllabus-outline-geomatics-engineering)
 
+![image](https://github.com/user-attachments/assets/15345394-f4ae-4b28-bbe0-1d043011159a)
+
 
 ---
 
@@ -152,7 +154,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 
 ## Talks , Conferences & Awards
 
-- **FOSS4G**, **State of the Map (SOTM)**, **OSGeo** local chapters, **YouthMappers** events  
+- **FOSS4G**, **State of the Map (SOTM)**, **OSGeo** local chapters, **YouthMappers** events , **Outreachy Internship Mentoring**
 - Presentations on **AI4EO**, **OpenStreetMap** data pipelines, **Humanitarian mapping**, and more  
 - Frequent speaker at **FOSS4G** events (both online & in-person)  
 - Sharing experiences on **free and open-source** mapping globally
