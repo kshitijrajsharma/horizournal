@@ -5,48 +5,170 @@ featureImage:
   alt: The portrait of a person
 seo:
   title: About
-  description: About Kshitiz Raj Sharma
+  description: About Kshitij Raj Sharma
   image:
     src: '/kshitiz.png'
 ---
 
+I'm **Kshitij Raj Sharma**, a **passionate spatial developer, AI engineer, and open-source enthusiast** from Nepal. My journey into the world of **open-source development** began in **2016**, when I created a **Nepali OSMTracker Android application** for local surveying. Since then, I've immersed myself in designing **geospatial applications**, leading **AI-for-mapping** initiatives, and fostering **community-driven** open-source projects.
 
-I'm Kshitij Raj Sharma, a **passionate spatial developer** and I talk open source. Born and raised in western rural Nepal, I pursued my passion for geomatics, graduating from the Institute of Engineering at Tribhuvan University Nepal.
+---
 
-My contributions to OpenStreetMap and Geospatial Deelopment date back to **2016**, My first contribution was creation of Nepali  OSMTracker android application to perform local surveying.
-
-## What Drives Me ?
+## What Drives Me?
 
 ![Drivers](/posts/drive-intersection.png)
 
-I'm drawn to the intersection of these three key topics: *Open Source*, *Spatial Data*, *Research Development, and Analysis*. Analyzing problems efficiently with research, figuring out new ideas, and implementing them is where I see myself fit. In addition to this, I enjoy exploring drones, field surveying, and mapping. I am a tech enthusiast who is fond of gadgets. Ultimately, my goal is to **make a meaningful impact through my work, with a focus on helping those in need and giving back to the community.**
+I'm drawn to the intersection of these three key topics: 
+*Open Source*, *Spatial Data*, *Research Development, and Analysis*. 
+Analyzing problems efficiently with *research*, figuring out new *ideas*, and *implementing* them is where I see myself fit. In addition to this, I enjoy exploring drones, field surveying, and mapping. I am a tech enthusiast who is fond of gadgets. Ultimately, my goal is to **make a meaningful impact through my work, with a focus on helping those in need and giving back to the community.**
 
+> “Be kind and work hard; it will get you to the situations you want to be in.”
 
+---
 
-> Be kind and work hard; It will get you to the situations you want to be in.
+## Experience & Education
 
+### Professional Timeline
 
+- **AI Engineer/Developer**  
+  *Humanitarian OpenStreetMap Team (Sept 2024 – Present)*  
 
-I am an active member and contributor to the following communities: **OSGEO , Dev Community , Outreachy , State of the Map , Youth Mappers , OSGEO Nepal , FOSS4G Asia , FOSS4G Global, OSM Nepal**
+- **Product Owner (Map Data Access Services)**  
+  *Humanitarian OpenStreetMap Team (July 2023 – Oct 2024)*  
 
-I have more than *14 open-source Python libraries* available on PyPI and some of research on my GitHub, all of them open. I have given talks at multiple conferences, especially FOSS4G and SOTM.
+- **Backend Engineer**  
+  *Humanitarian OpenStreetMap Team (Oct 2021 – June 2023)*  
 
-Some of the projects I am proud of include:
+- **GIS Developer**  
+  *Sentinel Engineering Consultancy (July 2020 – Sept 2021)*  
 
-- Complete mapping of my own rural municipality (agriculture, education, financial services) 
-- Agricultre Land Consolidation Project
-- Precision agriculture (Mobile Application)
-- Raw-Data-Api
-- Free and open-source AI initiative for humanitarian purposes
-- OSM-export-tool, making OpenStreetMap and Overturemap data available efficiently to Humanitarian Data Exchange (HDX)
-- Establishing the local geospatial community of developers (OSGEO Nepal), which was my dream and is now a reality
+- **Research Associate**  
+  *Center for Space Science & Geomatics Studies (Nov 2019 – June 2020)*  
 
-## Personal Interests
+- **Web GIS Developer (Intern)**  
+  *Naxa Pvt. Ltd (April 2019 – May 2019)*  
 
-I love my pets. I love writing and reading poems. When not working, I play basketball , Fifa, Go on Hikes , Travel and Explore new places. However, my ultimate passion remains mapping, and I continue to advocate for FOSS and contribute to open data initiatives.
+- **GIS Analyst (Contract)**  
+  *Modi Rural Municipality (Jan 2019 – March 2019)*  
 
+- **OSM Mapper (Intern)**  
+  *Kathmandu Living Labs (Jan 2018 – April 2018)*  
+
+### Academic Background
+
+- **Copernicus Masters in Digital Earth (Erasmus Scholarship)**  
+  *University of Salzburg, Austria & University of South Brittany, France (2024 – Ongoing)*  
+  *Focus:* Geo Data Science & AI for Earth Observation
+
+- **B.Sc. Geomatics Engineering**  
+  *Institute of Engineering, Pokhara, Nepal (2015 – 2019)*  
+  *Courses:* Python, Machine Learning, GIS, Remote Sensing, DBMS, Cartography, Photogrammetry, Geodesy, Cadastre
+
+---
+
+## Work & Projects
+
+I specialize in **innovative geospatial solutions**—from large-scale data pipelines to AI-assisted mapping tools.
+
+### fAIr – Free & Open AI-Assisted Mapping
+- AI platform supporting **building detection** via RAMP & YOLOv8  
+- [GitHub Repo](https://github.com/kshitijrajsharma/fAIr) | [Explained Video](https://www.youtube.com/watch?v=j8qzxqkHTKc) | [Live](https://fair.hotosm.org/)  
+- Goal: **Democratize** machine learning for humanitarian mapping
+
+### VirtuGhan
+- Concept for **on-the-fly tile computation** of large observation data  
+- [Repo](https://github.com/kshitijrajsharma/VirtuGhan) | [Live](https://virtughan.live/)
+
+### Raw-Data-API
+- High-performance API engine for **OpenStreetMap** & **OvertureMap** data in multiple geospatial formats  
+- Integrated with [**Humanitarian Data Exchange (HDX)**](https://data.humdata.org/) for easy distribution  
+- [Repo](https://github.com/hotosm/raw-data-api) | [Live](https://api-prod.raw-data.hotosm.org/v1/redoc)
+
+### OSM-Export-Tool
+- Facilitates **OpenStreetMap** and **OvertureMap** data export for **HDX** and other humanitarian needs  
+- Streamlines the process of making data more accessible in crisis response situations
+- [Repo](https://github.com/hotosm/raw-data-api) 
+
+### Chaklabandi
+- Mobile GIS application for **DGPS surveys** and **on-field data collection**  
+- Streamlines layout design and syncs field data seamlessly  
+- [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/)
+
+### Precision Farming (Mobile App)
+- **Machine Learning** + **Remote Sensing** for **leaf health detection**  
+- Empowers local farmers with **data-driven** insights
+
+### Raster Calculator (Web GIS)
+- Performs raster statistics (sum, min, max, majority) on **user-defined regions**  
+- Built with **Python** + **JavaScript**
+
+### AR App – Pashchimanchal Campus
+- **Augmented Reality** tool combining drone surveys with GeoAR  
+- Mixed reality experience for campus exploration
+
+### Modi Rural Municipality Mapbook
+- Created an **open geospatial database** of local services (agriculture, education, finance)  
+- [See Mapbook (PDF)](https://kshitijrajsharma.com.np/modi-mapbookfinal-2019.pdf)
+
+### Other Highlights
+- **Agriculture Market Full-Stack**:  
+  - [Price.krishiangan.com](http://price.krishiangan.com/) – Real-time agriculture price mapping  
+  - [Krishiangan.com](http://krishiangan.com/) – E-commerce for agricultural products
+
+---
+
+## Some Open-Source Projects
+
+- **[fAIr (Repo)](https://github.com/kshitijrajsharma/fAIr):** AI-assisted building detection  
+- **[Raw-Data-API](https://github.com/hotosm/raw-data-api):** OSM & OvertureMap data extracts  
+- **[fAIr-utilities](https://github.com/kshitijrajsharma/fAIr-utilities):** Toolkit for RAMP/YOLO polygon extraction  
+- **[OSM-Export-Tool](https://github.com/hotosm/osm-export-tool-legacy):** Export OSM data for HDX/humanitarian needs  
+- **[osmhashtagbot](https://github.com/kshitijrajsharma/osmhashtagbot):** Track OSM hashtags via Python  
+- **[osm-login-python](https://github.com/kshitijrajsharma/osm-login-python):** OAuth2 login library for OSM  
+- **[geojson2osm](https://github.com/kshitijrajsharma/geojson2osm):** Convert GeoJSON into OSM XML format  
+- **[osmconflator](https://github.com/kshitijrajsharma/osmconflator):** Data conflation with OSM  
+- **[15minwalk](https://github.com/kshitijrajsharma/15minwalk):** Visualizing the 15-minute city concept  
+- **[pcodegenerator](https://github.com/kshitijrajsharma/pcodegenerator):** Generate unique codes for geospatial datasets  
+- **[cog2h3](https://github.com/kshitijrajsharma/cog2h3):** Raster processing with the H3 index  
+- **[overturemaps-export](https://github.com/kshitijrajsharma/overturemaps-export):** Convert OvertureMaps data to various GIS formats  
+- **[oamsearch](https://github.com/kshitijrajsharma/oamsearch):** Quick search for OpenAerialMap imagery  
+- **[VirtuGhan](https://github.com/kshitijrajsharma/VirtuGhan):** On-the-fly data tiling
+
+  & Many more available in my github .... 
+
+---
+
+## Publications
+
+1. [Assessment of Agricultural Land Pooling using GNSS & GIS in Gandaki Province, Nepal](http://geomundus.org/2020/docs/papers/KshitijRajSharma.pdf)  
+2. [Assessment of Solar Photovoltaic Potential of Building Rooftops Using Photogrammetry and GIS](https://doi.org/10.3126/tgb.v8i01.43467)
+
+**YouthMappers Blog Post**  
+- [Our Journey from OSM to Village](https://www.youthmappers.org/post/2020/03/12/our-journey-from-osm-to-village)
+
+---
+
+## Talks & Conferences
+
+- **FOSS4G**, **State of the Map (SOTM)**, **OSGeo** local chapters, **YouthMappers** events  
+- Presentations on **AI4EO**, **OpenStreetMap** data pipelines, **Humanitarian mapping**, and more  
+- Frequent speaker at **FOSS4G** events (both online & in-person)  
+- Sharing experiences on **free and open-source** mapping globally
+
+You can find me at geospatial conferences, out of which FOSS4G is my fav.
+
+---
+
+## Community & Interests
+
+I’m a proud initiator of **[OSGeo Nepal](https://osgeonepal.github.io/)**, helping unite local developers and mappers around open-source geospatial tech. Beyond coding and mapping, I’m an avid explorer of **drone technology**, a **poetry** enthusiast, and I love **basketball**, **FIFA**, **hiking**, and traveling. At home, I spend time with my **cats and dogs**, always recharging for my next open-source endeavor.
 
 ![lovies](/posts/cats-dogs.png)
 
+---
 
-Thank you for visiting my blog. **I hope to learn & be better than I was yesterday !** 
+**Thank you for visiting my blog!**  
+
+I hope to **learn & grow every day**.  
+
+
