@@ -90,7 +90,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 ### OSM-Export-Tool
 - Facilitates **OpenStreetMap** and **OvertureMap** data export for **HDX** and other humanitarian needs  
 - Streamlines the process of making data more accessible in crisis response situations
-- [Repo](https://github.com/hotosm/raw-data-api) 
+- [Repo](https://github.com/hotosm/osm-export-tool) | [Live](https://export.hotosm.org/)
 
 ### Chaklabandi
 - Mobile GIS application for **DGPS surveys** and **on-field data collection**  
@@ -149,6 +149,9 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 
 **YouthMappers Blog Post**  
 - [Our Journey from OSM to Village](https://www.youthmappers.org/post/2020/03/12/our-journey-from-osm-to-village)
+
+**Blogs and Diaries**
+- [OSM Diary](https://www.openstreetmap.org/user/Kshitijraj%20Sharma/diary) , [Blogs](https://dev.to/krschap/)
 
 ---
 
