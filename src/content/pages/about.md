@@ -58,11 +58,12 @@ Analyzing problems efficiently with *research*, figuring out new *ideas*, and *i
 
 - **Copernicus Masters in Digital Earth (Erasmus Scholarship)**  
   *University of Salzburg, Austria & University of South Brittany, France (2024 – Ongoing)*  
-  *Focus:* Geo Data Science & AI for Earth Observation
+  *Focus:* [Geo Data Science & AI for Earth Observation](https://master-cde.eu/programme/curriculum/)
 
 - **Bachelor in Geomatics Engineering**  
   *Institute of Engineering, Pokhara, Nepal (2015 – 2019)*  
-  *Courses:* Python, Machine Learning, GIS, Remote Sensing, DBMS, Cartography, Photogrammetry, Geodesy, Cadastre
+  *Courses:* Python, Machine Learning, GIS, Remote Sensing, DBMS, Cartography, Photogrammetry, Geodesy, Cadastre , [Full List Here](https://ioepas.edu.np/geomatics-engineering/syllabus-outline-geomatics-engineering)
+
 
 ---
 
