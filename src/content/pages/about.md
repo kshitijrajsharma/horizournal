@@ -33,6 +33,9 @@ Analyzing problems efficiently with *research*, figuring out new *ideas*, and *i
 - **AI Engineer/Developer**  
   *Humanitarian OpenStreetMap Team (Sept 2024 – Present)*  
 
+- **Geospatial System Consultant**
+  *Social Empowerment and Building Accessibility Centre Nepal ( SEBAC-Nepal) ( Part time,  August 2024  - Sept 2024)*
+
 - **Product Owner (Map Data Access Services)**  
   *Humanitarian OpenStreetMap Team (July 2023 – Oct 2024)*  
 
