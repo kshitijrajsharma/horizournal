@@ -154,11 +154,11 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 
 ## Talks , Conferences & Awards
 
-- **FOSS4G**, **State of the Map (SOTM)**, **OSGeo** local chapters, **YouthMappers** events , **Outreachy Internship Mentoring**
+- **FOSS4G**, **State of the Map (SOTM)**, **OSGeo** local chapters, **YouthMappers** events , **Outreachy Internship Mentoring** , **OSM Hackfest Mentor**
 - Presentations on **AI4EO**, **OpenStreetMap** data pipelines, **Humanitarian mapping**, and more  
 - Frequent speaker at **FOSS4G** events (both online & in-person)  
 - Sharing experiences on **free and open-source** mapping globally
-- Winner of summer school china 2023 , Runner-Up winner at geoaihack 2025 , Best Concept award by Innovation Bootcamp 
+- Winner of Geoinformatics Summer School, Wuhan University China 2023 , Runner-Up winner at geoaihack 2025 , Best Concept award by Innovation Bootcamp 2019
 
 You can find me at geospatial conferences, out of which FOSS4G is my fav.
 
