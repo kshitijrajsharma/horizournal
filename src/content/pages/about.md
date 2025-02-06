@@ -60,7 +60,7 @@ Analyzing problems efficiently with *research*, figuring out new *ideas*, and *i
   *University of Salzburg, Austria & University of South Brittany, France (2024 – Ongoing)*  
   *Focus:* Geo Data Science & AI for Earth Observation
 
-- **B.Sc. Geomatics Engineering**  
+- **Bachelor in Geomatics Engineering**  
   *Institute of Engineering, Pokhara, Nepal (2015 – 2019)*  
   *Courses:* Python, Machine Learning, GIS, Remote Sensing, DBMS, Cartography, Photogrammetry, Geodesy, Cadastre
 
