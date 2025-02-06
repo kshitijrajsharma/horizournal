@@ -106,6 +106,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 ### AR App – Pashchimanchal Campus
 - **Augmented Reality** tool combining drone surveys with GeoAR  
 - Mixed reality experience for campus exploration
+- Project further pitched as an idea for Mountain Exploring which was awarded as best concept in **Innovation Bootcamp, Nepal**
 
 ### Modi Rural Municipality Mapbook
 - Created an **open geospatial database** of local services (agriculture, education, finance)  
@@ -149,14 +150,18 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 
 ---
 
-## Talks & Conferences
+## Talks , Conferences & Awards
 
 - **FOSS4G**, **State of the Map (SOTM)**, **OSGeo** local chapters, **YouthMappers** events  
 - Presentations on **AI4EO**, **OpenStreetMap** data pipelines, **Humanitarian mapping**, and more  
 - Frequent speaker at **FOSS4G** events (both online & in-person)  
 - Sharing experiences on **free and open-source** mapping globally
+- Winner of summer school china 2023 , Runner-Up winner at geoaihack 2025 , Best Concept award by Innovation Bootcamp 
 
 You can find me at geospatial conferences, out of which FOSS4G is my fav.
+
+![image](https://github.com/user-attachments/assets/48006f5a-e0a9-4cfd-86e2-195dd6788b5b)
+
 
 ---
 
