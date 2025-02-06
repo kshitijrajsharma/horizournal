@@ -95,9 +95,9 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - Streamlines the process of making data more accessible in crisis response situations
 - [Repo](https://github.com/hotosm/osm-export-tool) | [Live](https://export.hotosm.org/)
 
-### Chaklabandi
+### Chaklabandi ( Land Consolidation ) 
 - Mobile GIS application for **DGPS surveys** and **on-field data collection**  
-- Streamlines layout design and syncs field data seamlessly  
+- Streamlines layout design and syncs field data seamlessly for helping farmers to farm in modern way
 - [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/)
 
 ### Precision Farming (Mobile App)
