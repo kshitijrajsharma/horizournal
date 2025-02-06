@@ -31,7 +31,7 @@ Analyzing problems efficiently with *research*, figuring out new *ideas*, and *i
 ### Professional Timeline
 
 - **AI Engineer/Developer**  
-  *Humanitarian OpenStreetMap Team (Sept 2024 – Present)*  
+  *Humanitarian OpenStreetMap Team (Part time, Sept 2024 – Present)*  
 
 - **Geospatial System Consultant**
   *Social Empowerment and Building Accessibility Centre Nepal ( SEBAC-Nepal) ( Part time,  August 2024  - Sept 2024)*
