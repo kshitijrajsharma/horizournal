@@ -13,4 +13,4 @@ seo:
 Feel free to drop me an email at [hug-clicker-lucid@duck.com](mailto:hug-clicker-lucid@duck.com), and I'll do my best to respond as soon as possible.
 
 **_Social Media:_**
-Connect with me on social media as well. You can find contacts below !
+I am not very active in social media , Yet you can connect with me if you like. You can find link downstairs !
