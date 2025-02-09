@@ -182,7 +182,6 @@ I’m a proud initiator of **[OSGeo Nepal](https://osgeonepal.github.io/)**, hel
 ---
 
 **Thank you for visiting my blog!**  
-
-I hope to **learn & grow every day**.  
+ 
 
 
