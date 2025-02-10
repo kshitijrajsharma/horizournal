@@ -105,7 +105,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - Available on **PyPI**  
 - [Repo](https://github.com/kshitijrajsharma/overture2hdx) | [Docs](https://kshitijrajsharma.github.io/overture2hdx/)  
 
-### COG2H3  
+### Cog2H3  
 - Processes **Cloud Optimized GeoTIFFs (COGs)** and converts them to **H3 hexagonal grids**  
 - Stores results in **PostgreSQL**, supports **multi-band rasters, resampling**, and various processing options  
 - Available on **PyPI**  
@@ -132,7 +132,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - Project further pitched as an idea for  Exploring Mountains which was awarded as best concept in **[Innovation Bootcamp, Nepal](https://www.nepgo.com/bootcamp/)**
 
 ### Modi Rural Municipality Mapbook
-- Created an **open geospatial database** of local services (agriculture, education, finance)  
+- An **open geospatial database** of local services (agriculture, education, finance)  
 - [See Mapbook (PDF)](https://kshitijrajsharma.com.np/modi-mapbookfinal-2019.pdf)
 
 ### Other Highlights
