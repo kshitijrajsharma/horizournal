@@ -119,6 +119,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 ### Precision Farming (Mobile App)
 - **Machine Learning** + **Remote Sensing** for **leaf health detection**  
 - Empowers local farmers with **data-driven** insights
+- [Demo](https://www.facebook.com/share/v/14quA7i1Gq/?mibextid=wwXIfr)
 
 ### Chaklabandi ( Land Consolidation ) 
 - Mobile GIS application for **DGPS surveys** and **on-field data collection**  
