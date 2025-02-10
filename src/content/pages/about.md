@@ -126,17 +126,13 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 
 ## Some Open-Source Projects
 
-- **[fAIr (Repo)](https://github.com/kshitijrajsharma/fAIr):** AI-assisted building detection  
-- **[Raw-Data-API](https://github.com/hotosm/raw-data-api):** OSM & OvertureMap data extracts  
 - **[fAIr-utilities](https://github.com/kshitijrajsharma/fAIr-utilities):** Toolkit for RAMP/YOLO polygon extraction  
-- **[OSM-Export-Tool](https://github.com/hotosm/osm-export-tool-legacy):** Export OSM data for HDX/humanitarian needs  
 - **[osmhashtagbot](https://github.com/kshitijrajsharma/osmhashtagbot):** Track OSM hashtags via Python  
 - **[osm-login-python](https://github.com/kshitijrajsharma/osm-login-python):** OAuth2 login library for OSM  
 - **[geojson2osm](https://github.com/kshitijrajsharma/geojson2osm):** Convert GeoJSON into OSM XML format  
 - **[osmconflator](https://github.com/kshitijrajsharma/osmconflator):** Data conflation with OSM  
 - **[15minwalk](https://github.com/kshitijrajsharma/15minwalk):** Visualizing the 15-minute city concept  
 - **[pcodegenerator](https://github.com/kshitijrajsharma/pcodegenerator):** Generate unique codes for geospatial datasets  
-- **[cog2h3](https://github.com/kshitijrajsharma/cog2h3):** Raster processing with the H3 index  
 - **[overturemaps-export](https://github.com/kshitijrajsharma/overturemaps-export):** Convert OvertureMaps data to various GIS formats  
 - **[oamsearch](https://github.com/kshitijrajsharma/oamsearch):** Quick search for OpenAerialMap imagery  
 - **[geojson2bbox](https://kshitijrajsharma.github.io/geojson2bbox/):** Easily grab bbox of your geojson
@@ -164,7 +160,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - Presentations on **AI4EO**, **OpenStreetMap** data pipelines, **Humanitarian mapping**, and more  
 - Frequent speaker at **FOSS4G** events (both online & in-person)  
 - Sharing experiences on **free and open-source** mapping globally
-- Winner of Geoinformatics Summer School, Wuhan University China 2023 , Runner-Up winner at geoaihack 2025 , Best Concept award by Innovation Bootcamp 2019
+- Winner of [Geoinformatics Summer School](https://github.com/kshitijrajsharma/wuhan-geoinformatics), Wuhan University China 2023 , Runner-Up winner at geoaihack 2025 , Best Concept award by Innovation Bootcamp 2019
 
 You can find me at geospatial conferences, out of which FOSS4G is my fav.
 
