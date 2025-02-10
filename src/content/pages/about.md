@@ -100,11 +100,6 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - Data downloader of **OpenStreetMap Tasking Manager** projects
 - [Repo](https://github.com/hotosm/tm-extractor) | [Wiki](https://wiki.openstreetmap.org/wiki/Tasking_Manager)  
 
-### Chaklabandi ( Land Consolidation ) 
-- Mobile GIS application for **DGPS surveys** and **on-field data collection**  
-- Streamlines layout design and syncs field data seamlessly for helping farmers to farm in modern way
-- [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/)
-
 ### Overture2HDX  
 - Generates **extracts for HDX (Humanitarian Data Exchange)** from **Overture Maps**  
 - Available on **PyPI**  
@@ -125,10 +120,10 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - **Machine Learning** + **Remote Sensing** for **leaf health detection**  
 - Empowers local farmers with **data-driven** insights
 
-### Raster Calculator (Web GIS)
-- Performs raster statistics (sum, min, max, majority) on **user-defined regions**  
-- Built with **Python** + **JavaScript**
-- Proprietry 
+### Chaklabandi ( Land Consolidation ) 
+- Mobile GIS application for **DGPS surveys** and **on-field data collection**  
+- Streamlines layout design and syncs field data seamlessly for helping farmers to farm in modern way
+- [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/)
 
 ### AR App – Pashchimanchal Campus
 - **Augmented Reality** tool combining drone surveys with GeoAR  
@@ -148,6 +143,8 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 
 ## Some Open-Source Projects
 
+- **[accuracy-metrics-evaluator](https://github.com/kshitijrajsharma/accuracy-metrics-evaluator):** Object-level accuracy assessment toolkit for segmentation model output  
+- **[geoml-toolkits](https://github.com/kshitijrajsharma/geoml-toolkits):** Collection of small toolkits for GeoML workflows  
 - **[fAIr-utilities](https://github.com/kshitijrajsharma/fAIr-utilities):** Toolkit for RAMP/YOLO polygon extraction  
 - **[osmhashtagbot](https://github.com/kshitijrajsharma/osmhashtagbot):** Track OSM hashtags via Python  
 - **[osm-login-python](https://github.com/kshitijrajsharma/osm-login-python):** OAuth2 login library for OSM  
@@ -157,11 +154,9 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - **[pcodegenerator](https://github.com/kshitijrajsharma/pcodegenerator):** Generate unique codes for geospatial datasets  
 - **[overturemaps-export](https://github.com/kshitijrajsharma/overturemaps-export):** Convert OvertureMaps data to various GIS formats  
 - **[oamsearch](https://github.com/kshitijrajsharma/oamsearch):** Quick search for OpenAerialMap imagery  
-- **[geojson2bbox](https://kshitijrajsharma.github.io/geojson2bbox/):** Easily grab bbox of your geojson
-- **[orthogonalizer](https://github.com/kshitijrajsharma/orthogonalizer):** Pip implementation for squaring/orthogonalization of irregular polygons
-  & Many more available in my github .... 
-
----
+- **[geojson2bbox](https://kshitijrajsharma.github.io/geojson2bbox/):** Easily grab bbox of your GeoJSON  
+- **[orthogonalizer](https://github.com/kshitijrajsharma/orthogonalizer):** Pip implementation for squaring/orthogonalization of irregular polygons  
+  & Many more available in my GitHub...  
 
 ## Publications
 
