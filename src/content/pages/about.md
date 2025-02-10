@@ -123,7 +123,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 ### Chaklabandi ( Land Consolidation ) 
 - Mobile GIS application for **DGPS surveys** and **on-field data collection**  
 - Streamlines layout design and syncs field data seamlessly for helping farmers to farm in modern way
-- [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/) | **[About](https://thehimalayantimes.com/nepal/land-plotting-to-enhance-production/)**
+- [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/) | [About](https://thehimalayantimes.com/nepal/land-plotting-to-enhance-production/)
 
 ### Locased Based - AR App 
 - **Augmented Reality** tool combining drone surveys with GeoAR  
