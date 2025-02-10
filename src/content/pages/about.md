@@ -162,7 +162,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - **[fairpredictor](https://github.com/hotosm/fairpredictor):** Standalone package for running segmentation model predictions  
 - **[s3-logs-analyzer](https://github.com/hotosm/s3-logs-analyzer):** Analyzes AWS S3 logs to produce reports on service downloads  
 
-#### also contribugor to  
+#### also contributor to  
 - **[Field Mapping Tasking Manager (FMTM)](https://github.com/hotosm/fmtm)**  
 - **[OpenAerialMap](https://openaerialmap.org/)**  
 - **[Underpass](https://github.com/hotosm/underpass)**  
