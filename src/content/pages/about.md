@@ -95,10 +95,31 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - Streamlines the process of making data more accessible in crisis response situations
 - [Repo](https://github.com/hotosm/osm-export-tool) | [Live](https://export.hotosm.org/)
 
+### Tasking Manager Extractor  
+- Facilitates **project data downloads** in **Tasking Manager** by triggering extraction requests  
+- Data downloader of **OpenStreetMap Tasking Manager** projects
+- [Repo](https://github.com/hotosm/tm-extractor) | [Wiki](https://wiki.openstreetmap.org/wiki/Tasking_Manager)  
+
 ### Chaklabandi ( Land Consolidation ) 
 - Mobile GIS application for **DGPS surveys** and **on-field data collection**  
 - Streamlines layout design and syncs field data seamlessly for helping farmers to farm in modern way
 - [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/)
+
+### Overture2HDX  
+- Generates **extracts for HDX (Humanitarian Data Exchange)** from **Overture Maps**  
+- Available on **PyPI**  
+- [Repo](https://github.com/kshitijrajsharma/overture2hdx) | [Docs](https://kshitijrajsharma.github.io/overture2hdx/)  
+
+### COG2H3  
+- Processes **Cloud Optimized GeoTIFFs (COGs)** and converts them to **H3 hexagonal grids**  
+- Stores results in **PostgreSQL**, supports **multi-band rasters, resampling**, and various processing options  
+- Available on **PyPI**  
+- [Repo](https://github.com/kshitijrajsharma/cog2h3) | [PyPI](https://pypi.org/project/cog2h3/)  
+
+### OSMSG (OpenStreetMap Stats Generator)  
+- **On-the-fly command-line stats generator** for OpenStreetMap user contributions  
+- Available on **PyPI**  
+- [Repo](https://github.com/kshitij-raj-sharma/OSMSG-stats) | [PyPI](https://pypi.org/project/osmsg/)  
 
 ### Precision Farming (Mobile App)
 - **Machine Learning** + **Remote Sensing** for **leaf health detection**  
@@ -107,6 +128,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 ### Raster Calculator (Web GIS)
 - Performs raster statistics (sum, min, max, majority) on **user-defined regions**  
 - Built with **Python** + **JavaScript**
+- Proprietry 
 
 ### AR App – Pashchimanchal Campus
 - **Augmented Reality** tool combining drone surveys with GeoAR  
@@ -136,7 +158,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - **[overturemaps-export](https://github.com/kshitijrajsharma/overturemaps-export):** Convert OvertureMaps data to various GIS formats  
 - **[oamsearch](https://github.com/kshitijrajsharma/oamsearch):** Quick search for OpenAerialMap imagery  
 - **[geojson2bbox](https://kshitijrajsharma.github.io/geojson2bbox/):** Easily grab bbox of your geojson
-
+- **[orthogonalizer](https://github.com/kshitijrajsharma/orthogonalizer):** Pip implementation for squaring/orthogonalization of irregular polygons
   & Many more available in my github .... 
 
 ---
