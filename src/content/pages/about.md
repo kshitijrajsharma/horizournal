@@ -126,7 +126,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - Streamlines layout design and syncs field data seamlessly for helping farmers to farm in modern way
 - [Test & Implementation](https://www.facebook.com/wrc.cssgs/posts/chaklabandi-v10-was-successfully-tested-and-implemented-at-syanja-guthhim-on-col/115806853275783/) | [About](https://thehimalayantimes.com/nepal/land-plotting-to-enhance-production/)
 
-### Locased Based - AR App 
+### Location Based - AR App 
 - **Augmented Reality** tool combining drone surveys with GeoAR  
 - Mixed reality experience for campus exploration
 - Project further pitched as an idea for  Exploring Mountains which was awarded as best concept in **[Innovation Bootcamp, Nepal](https://www.nepgo.com/bootcamp/)**
