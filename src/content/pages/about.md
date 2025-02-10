@@ -86,7 +86,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - [Repo](https://github.com/kshitijrajsharma/VirtuGhan) | [Live](https://virtughan.live/)
 
 ### Raw-Data-API
-- High-performance API engine for **OpenStreetMap** & **OvertureMap** data in multiple geospatial formats  
+- High-performance API engine for **OpenStreetMap**  data in multiple geospatial formats  
 - Integrated with [**Humanitarian Data Exchange (HDX)**](https://data.humdata.org/) for easy distribution  
 - [Repo](https://github.com/hotosm/raw-data-api) | [Live](https://api-prod.raw-data.hotosm.org/v1/redoc)
 
@@ -181,7 +181,7 @@ I’m a proud initiator of **[OSGeo Nepal](https://osgeonepal.github.io/)**, hel
 
 ---
 
-**Thank you for visiting my blog!**  
+**Thank you for e-visiting me !**  
  
 
 
