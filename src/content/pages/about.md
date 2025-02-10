@@ -157,6 +157,16 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 - **[oamsearch](https://github.com/kshitijrajsharma/oamsearch):** Quick search for OpenAerialMap imagery  
 - **[geojson2bbox](https://kshitijrajsharma.github.io/geojson2bbox/):** Easily grab bbox of your GeoJSON  
 - **[orthogonalizer](https://github.com/kshitijrajsharma/orthogonalizer):** Pip implementation for squaring/orthogonalization of irregular polygons  
+- **[osm-login-python](https://github.com/hotosm/osm-login-python):** Package to manage OAuth 2.0 login for OSM in Python  
+- **[overture-to-tiles](https://github.com/hotosm/overture-to-tiles):** Converts Overture Map data to Cloud Optimized Vector Tiles (PMTiles)  
+- **[fairpredictor](https://github.com/hotosm/fairpredictor):** Standalone package for running segmentation model predictions  
+- **[s3-logs-analyzer](https://github.com/hotosm/s3-logs-analyzer):** Analyzes AWS S3 logs to produce reports on service downloads  
+
+#### also contribugor to  
+- **[Field Mapping Tasking Manager (FMTM)](https://github.com/hotosm/fmtm)**  
+- **[OpenAerialMap](https://openaerialmap.org/)**  
+- **[Underpass](https://github.com/hotosm/underpass)**  
+
   & Many more available in my GitHub...  
 
 ## Publications
