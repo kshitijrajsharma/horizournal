@@ -98,7 +98,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 ### Tasking Manager Extractor  
 - Facilitates **project data downloads** in **Tasking Manager** by triggering extraction requests  
 - Data downloader of **OpenStreetMap Tasking Manager** projects
-- [Repo](https://github.com/hotosm/tm-extractor) | [Wiki](https://wiki.openstreetmap.org/wiki/Tasking_Manager)  
+- [Repo](https://github.com/hotosm/tm-extractor) | [Live](https://tasks.hotosm.org)  
 
 ### Overture2HDX  
 - Generates **extracts for HDX (Humanitarian Data Exchange)** from **Overture Maps**  
