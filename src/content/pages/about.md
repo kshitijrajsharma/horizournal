@@ -78,7 +78,7 @@ I specialize in **innovative geospatial solutions**—from large-scale data pipe
 
 ### fAIr – Free & Open AI-Assisted Mapping
 - AI platform supporting **building detection** via RAMP & YOLOv8  
-- [GitHub Repo](https://github.com/kshitijrajsharma/fAIr) | [Explained Video](https://www.youtube.com/watch?v=j8qzxqkHTKc) | [Live](https://fair.hotosm.org/)  
+- [GitHub Repo](https://github.com/hotosm/fAIr) | [Explained Video](https://www.youtube.com/watch?v=j8qzxqkHTKc) | [Live](https://fair.hotosm.org/)  
 - Goal: **Democratize** machine learning for humanitarian mapping
 
 ### VirtuGhan
