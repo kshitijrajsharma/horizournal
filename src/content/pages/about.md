@@ -10,7 +10,7 @@ seo:
     src: '/kshitiz.png'
 ---
 
-I'm **Kshitij Raj Sharma**, a **passionate spatial developer, AI engineer, and open-source enthusiast** from Nepal. My journey into the world of **open-source development** began in **2016**, when I created a **Nepali OSMTracker Android application** for local surveying. Since then, I've immersed myself in designing **geospatial applications**, leading **AI-for-mapping** initiatives, and fostering **community-driven** open-source projects.
+I'm Kshitij, a passionate spatial developer, AI engineer, and open-source enthusiast from Nepal. My journey in web development began in 2013 with the creation of a custom Blogspot [website](https://shiksharasarokar.blogspot.com/). My experience with open-source development started in 2016, when I developed a Nepali OSMTracker Android application for local surveying. Since then, I've immersed myself in designing geospatial applications, leading AI-for-mapping initiatives, and fostering community-driven open-source projects.
 
 ---
 
