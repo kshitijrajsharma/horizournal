@@ -1,6 +1,6 @@
 ---
-title: Standards in Geo-AI: STAC-MLM, OGC TrainingDML-AI, and Related Initiatives
-excerpt: "Geospatial AI has rapidly grown, with applications ranging from land-cover mapping to disaster damage assessment. However, a historical lack of standards for organizing training data and models has led to fragmented practices ([Yue 2023](#ref-copernicus2023)). In recent years, multiple initiatives have emerged to improve the FAIR (Findable, Accessible, Interoperable, Reusable) principles in GeoAI by standardizing how datasets and models are described and shared."
+title: "Standards in Geo-AI: STAC-MLM, OGC TrainingDML-AI, and Related Initiatives"
+excerpt: "Geospatial AI has rapidly grown, with applications ranging from land-cover mapping to disaster damage assessment. However, a historical lack of standards for organizing training data and models has led to fragmented practices. In recent years, multiple initiatives have emerged to improve the FAIR (Findable, Accessible, Interoperable, Reusable) principles in GeoAI by standardizing how datasets and models are described and shared."
 publishDate: 'Apr 26 2025'
 featureImage:
   src: 'https://lh7-rt.googleusercontent.com/docsz/AD_4nXeos8LBuB72Bzsf8aNZUVMwlgseWPmTJiZ119U1gFW90iikqeZnkbs85pRIPvwVMGpmQmT8CpCFBjFpywdrLzYZBqn1az99J8Vf_USWAPOompc4b9mh5Tipovw3dMGq5HRTKiBW?key=e0PKQH475XwTzK6KsQ_zXI2w'
