@@ -20,7 +20,7 @@ I'm Kshitij, a passionate spatial developer, AI engineer, and open-source enthus
 
 I'm drawn to the intersection of these three key topics: 
 *Open Source*, *Spatial Data*, *Research Development, and Analysis*. 
-Analyzing problems efficiently with *research*, figuring out new *ideas*, and *implementing* them is where I see myself fit. In addition to this, I enjoy exploring drones, field surveying, and mapping. I am a tech enthusiast who is fond of gadgets. Ultimately, my goal is to **make a meaningful impact through my work, with a focus on helping those in need and giving back to the community.**
+Analyzing problems efficiently with *research*, figuring out new *ideas*, and *implementing* them is where I see myself fit. In addition to this, I enjoy exploring drones, field surveying, and mapping. I am a tech enthusiast who is fond of gadgets. Ultimately, my goal is to make a meaningful impact through my work, with a focus on helping those in need and giving back to the community.
 
 > “Be kind and work hard; it will get you to the situations you want to be in.”
 
@@ -163,11 +163,8 @@ I enjoy working in innovative geospatial solutions from large-scale data pipelin
 - **[s3-logs-analyzer](https://github.com/hotosm/s3-logs-analyzer):** Analyzes AWS S3 logs to produce reports on service downloads  
 
 #### also contributor to  
-- **[Field Mapping Tasking Manager (FMTM)](https://github.com/hotosm/fmtm)**  
-- **[OpenAerialMap](https://openaerialmap.org/)**  
-- **[Underpass](https://github.com/hotosm/underpass)**  
 
-  & Many more available in my GitHub...  
+  Cool Open Source Projects...  
 
 ## Publications
 
