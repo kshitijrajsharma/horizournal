@@ -74,7 +74,7 @@ Analyzing problems efficiently with *research*, figuring out new *ideas*, and *i
 
 ## Work & Projects
 
-I specialize in **innovative geospatial solutions**—from large-scale data pipelines to AI-assisted mapping tools.
+I enjoy working in innovative geospatial solutions from large-scale data pipelines to AI-assisted mapping tools.
 
 ### fAIr – Free & Open AI-Assisted Mapping
 - AI platform supporting **building detection** via RAMP & YOLOv8  
@@ -199,7 +199,7 @@ You can find me at geospatial conferences, out of which FOSS4G is my fav.
 
 ## Community & Interests
 
-I’m a proud initiator of **[OSGeo Nepal](https://osgeonepal.github.io/)**, helping unite local developers and mappers around open-source geospatial tech. Beyond coding and mapping, I’m an avid explorer of **drone technology**, a **poetry** enthusiast, and I love **basketball**, **FIFA**, **hiking**, and traveling. At home, I spend time with my **cats and dogs**, always recharging for my next open-source endeavor.
+I’m a proud initiator of [OSGeo Nepal](https://osgeonepal.github.io/), helping unite local developers and mappers around open-source geospatial tech. Beyond coding and mapping, I’m an avid explorer of drone technology, a poetry enthusiast, and I love basketball, FIFA, hiking, and traveling. At home, I spend time with my cats and dogs, always recharging for my next open-source endeavor.
 
 ![lovies](/posts/cats-dogs.png)
 
