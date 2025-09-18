@@ -7,7 +7,6 @@ import FeaturedPostPreview from "../components/FeaturedPostPreview.astro";
 import PostPreview from "../components/PostPreview.astro";
 import siteConfig from "../data/site-config";
 import { sortPostsByDateDesc } from "../utils/post-utils";
-import Subscribe from "../components/Subscribe.astro";
 
 const posts = (await getCollection("blog"))
   .filter((post) => post.data.published)
@@ -57,6 +56,5 @@ const latestPosts = posts.filter(({ data }) => !data.isFeatured).slice(0, 4);
         </div>
       )
     }
-    <Subscribe class="px-4 my-12 sm:px-8 sm:my-16" />
   </main>
 </NoHeaderLayout>

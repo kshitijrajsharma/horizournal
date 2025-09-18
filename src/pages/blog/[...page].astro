@@ -6,7 +6,6 @@ import Icon from "../../components/Icon.astro";
 import PostPreview from "../../components/PostPreview.astro";
 import siteConfig from "../../data/site-config.ts";
 import { sortPostsByDateDesc } from "../../utils/post-utils";
-import Subscribe from "../../components/Subscribe.astro";
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
   const posts = (await getCollection("blog")).sort(sortPostsByDateDesc);
@@ -62,6 +61,5 @@ const blog = page.data;
         }
       </div>
     </nav>
-    <Subscribe class="my-12 sm:my-16" />
   </main>
 </BaseLayout>

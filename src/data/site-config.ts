@@ -19,12 +19,6 @@ export type Hero = {
     backgroundImage?: Image;
 };
 
-export type Subscribe = {
-    title?: string;
-    text?: string;
-    formUrl: string;
-};
-
 export type SiteConfig = {
     logo?: Image;
     title: string;
@@ -34,7 +28,6 @@ export type SiteConfig = {
     secondaryNavLinks?: Link[];
     socialLinks?: SocialLink[];
     hero?: Hero;
-    subscribe?: Subscribe;
     postsPerPage?: number;
 };
 
@@ -114,9 +107,6 @@ const siteConfig: SiteConfig = {
         backgroundImage: {
             src: '/earth.webp'
         }
-    },
-    subscribe: {
-        formUrl: '#'
     },
     postsPerPage: 5
 };
